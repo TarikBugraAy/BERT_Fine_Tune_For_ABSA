@@ -5,20 +5,23 @@ class bert_ATE(torch.nn.Module):
     def __init__(self, pretrain_model):
         super(bert_ATE, self).__init__()
         self.bert = BertModel.from_pretrained(pretrain_model)
-        self.linear = torch.nn.Linear(self.bert.config.hidden_size, 3)
+        self.linear = torch.nn.Linear(self.bert.config.hidden_size, 3)  # Maps hidden size to 3 output classes
         self.loss_fn = torch.nn.CrossEntropyLoss()
 
     def forward(self, ids_tensors, tags_tensors, masks_tensors):
-        bert_outputs,_ = self.bert(input_ids=ids_tensors, attention_mask=masks_tensors)
-        # print(bert_outputs.size())
-        linear_outputs = self.linear(bert_outputs)
-        # print(linear_outputs.size())
+        # Get the last hidden state from the BERT outputs
+        bert_outputs = self.bert(input_ids=ids_tensors, attention_mask=masks_tensors)
+        last_hidden_state = bert_outputs[0]  # Shape: [batch_size, seq_len, hidden_size]
+
+        # Pass through the linear layer
+        linear_outputs = self.linear(last_hidden_state)  # Shape: [batch_size, seq_len, 3]
 
         if tags_tensors is not None:
-            tags_tensors = tags_tensors.view(-1)
-            linear_outputs = linear_outputs.view(-1,3)
-            # print(linear_outputs.size())
-            # print(tags_tensors.size())
+            # Flatten tensors for CrossEntropyLoss
+            tags_tensors = tags_tensors.view(-1)  # Shape: [batch_size * seq_len]
+            linear_outputs = linear_outputs.view(-1, 3)  # Shape: [batch_size * seq_len, 3]
+
+            # Compute the loss
             loss = self.loss_fn(linear_outputs, tags_tensors)
             return loss
         else:
@@ -29,18 +32,19 @@ class bert_ABSA(torch.nn.Module):
     def __init__(self, pretrain_model):
         super(bert_ABSA, self).__init__()
         self.bert = BertModel.from_pretrained(pretrain_model)
-        self.linear = torch.nn.Linear(self.bert.config.hidden_size, 3)
+        self.linear = torch.nn.Linear(self.bert.config.hidden_size, 3)  # 3 sentiment classes
         self.loss_fn = torch.nn.CrossEntropyLoss()
 
     def forward(self, ids_tensors, lable_tensors, masks_tensors, segments_tensors):
-        _, pooled_outputs = self.bert(input_ids=ids_tensors, attention_mask=masks_tensors, token_type_ids=segments_tensors)
-        # print(bert_outputs.size())
-        linear_outputs = self.linear(pooled_outputs)
-        # print(linear_outputs.size())
+        # Get the outputs from BERT
+        outputs = self.bert(input_ids=ids_tensors, attention_mask=masks_tensors, token_type_ids=segments_tensors)
+        pooled_outputs = outputs[1]  # Extract pooled output for [CLS] token (shape: [batch_size, hidden_size])
+
+        # Pass the pooled output through the linear layer
+        linear_outputs = self.linear(pooled_outputs)  # Shape: [batch_size, 3]
 
         if lable_tensors is not None:
-            # print(linear_outputs.size())
-            # print(tags_tensors.size())
+            # Compute the loss
             loss = self.loss_fn(linear_outputs, lable_tensors)
             return loss
         else:
