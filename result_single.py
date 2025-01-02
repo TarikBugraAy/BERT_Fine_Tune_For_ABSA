@@ -3,7 +3,7 @@ from transformers import BertTokenizer, logging
 from bert import bert_ATE, bert_ABSA
 import warnings
 
-# Suppress specific warnings
+# Suppress  warnings
 warnings.filterwarnings("ignore", category=UserWarning)
 warnings.filterwarnings("ignore", category=FutureWarning)
 logging.set_verbosity_error()

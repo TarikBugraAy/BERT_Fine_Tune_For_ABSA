@@ -5,17 +5,15 @@ import torch
 import warnings
 
 from transformers import BertTokenizer, logging
-from bert import bert_ATE, bert_ABSA  # Make sure this import is correct
+from bert import bert_ATE, bert_ABSA 
 
 # Suppress warnings
 warnings.filterwarnings("ignore", category=UserWarning)
 warnings.filterwarnings("ignore", category=FutureWarning)
 logging.set_verbosity_error()
 
-#####################################
-# 1. LOAD MODELS AND TOKENIZER
-#####################################
 
+# LOAD MODELS AND TOKENIZER
 DEVICE = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 pretrain_model_name = "bert-large-uncased"
 tokenizer = BertTokenizer.from_pretrained(pretrain_model_name)
@@ -31,19 +29,10 @@ ate_model.eval()
 absa_model.load_state_dict(torch.load("absa_model.pkl", map_location=DEVICE))
 absa_model.eval()
 
-#####################################
-# 2. DEFINE CSV LOADING UTILITY
-#####################################
+
+#CSV LOADING UTILITY
 def load_csv_data(file_path):
-    """
-    Reads a CSV with rows like:
-      Sentence, AspectTerm, Polarity
-    and returns a dict:
-      {
-         sentence_str: [(aspect1, polarity1), (aspect2, polarity2), ...],
-         ...
-      }
-    """
+
     data = {}
     with open(file_path, mode="r", encoding="utf-8") as f:
         reader = csv.reader(f)
@@ -61,9 +50,8 @@ def load_csv_data(file_path):
             data[sentence].append((aspect_term, polarity))
     return data
 
-#####################################
-# 3. MODEL-INFERENCE FUNCTIONS
-#####################################
+
+#MODEL-INFERENCE FUNCTIONS
 def extract_aspect_terms(sentence):
     """
     Uses ATE model to get aspect terms from the sentence.
@@ -102,9 +90,6 @@ def extract_aspect_terms(sentence):
     return aspect_terms
 
 def determine_polarity(sentence, aspect_terms):
-    """
-    Uses ABSA model to classify each aspect term as Negative, Neutral, or Positive.
-    """
     polarities = {}
     label_map = {0: "Negative", 1: "Neutral", 2: "Positive"}
 
@@ -123,9 +108,6 @@ def determine_polarity(sentence, aspect_terms):
     return polarities
 
 def predict_aspects_for_sentence(sentence):
-    """
-    Returns a list of (aspect_term, predicted_polarity) for a single sentence.
-    """
     aspects = extract_aspect_terms(sentence)
     if aspects:
         polarities = determine_polarity(sentence, aspects)
@@ -133,14 +115,9 @@ def predict_aspects_for_sentence(sentence):
     else:
         return []
 
-#####################################
-# 4. MODE 1: RUN ENTIRE CSV, SAVE JSON
-#####################################
+
+# MODE 1: RUN ENTIRE CSV, SAVE JSON
 def run_entire_csv_and_save_json(data_dict, output_json="results.json"):
-    """
-    Processes each sentence in data_dict with the model, then saves to JSON.
-    One entry per sentence, containing predicted_aspects and ground_truth_aspects.
-    """
     results = []
     for sentence, gt_list in data_dict.items():
         predicted = predict_aspects_for_sentence(sentence)
@@ -160,15 +137,9 @@ def run_entire_csv_and_save_json(data_dict, output_json="results.json"):
 
     print(f"\nAll sentences processed. Results saved to '{output_json}'.\n")
 
-#####################################
-# 5. MODE 2: RANDOM SAMPLE IN TERMINAL
-#####################################
+
+# MODE 2: RANDOM SAMPLE IN TERMINAL
 def run_random_sample(data_dict):
-    """
-    Asks the user how many sentences to sample from 'data_dict'.
-    Randomly picks that many unique sentences, then shows
-    predictions vs ground truth in the console.
-    """
     try:
         n = int(input("How many random sentences to sample? "))
     except ValueError:
@@ -200,14 +171,13 @@ def run_random_sample(data_dict):
             print(f"     - {gt_asp}: {gt_pol}")
         print()  # Blank line
 
-#####################################
-# 6. MAIN: HARD-CODE CSV & SHOW MENU
-#####################################
-if __name__ == "__main__":
-    # Hardcode the CSV file path
-    csv_file_path = "data/testing_2.csv"  # <-- Adjust if needed
 
-    # Load data from CSV into a dictionary
+# MAIN
+if __name__ == "__main__":
+
+    print("Loading the input data ...")
+    # Input for test - the CSV file path
+    csv_file_path = "data/testing_2.csv"  
     data_dict = load_csv_data(csv_file_path)
 
     while True:
@@ -222,7 +192,7 @@ if __name__ == "__main__":
         elif choice == "2":
             run_random_sample(data_dict)
         elif choice == "3":
-            print("Goodbye!")
+            print("Session Ending")
             break
         else:
             print("Invalid choice. Please choose 1, 2, or 3.\n")

@@ -176,7 +176,7 @@ def train_absa(loader, val_loader, model, optimizer, epochs):
         print(f"  Validation Loss: {val_loss:.4f}")
         if val_loss < best_val_loss:
             best_val_loss = val_loss
-            save_model_pkl(model, "absa_model_v2.pkl")
+            save_model_pkl(model, "absa_model_v1.pkl")
             print("  Model saved with improved validation loss.")
     print("ABSA Training Completed.")
 
@@ -224,7 +224,7 @@ ate_test_loader = DataLoader(ate_test_ds, batch_size=8, collate_fn=create_mini_b
 
 # ABSA Data
 # absa_train_ds = dataset_ABSA(pd.read_csv("data/ABSA5restaurants_train.csv"), tokenizer)
-absa_train_ds = dataset_ABSA(pd.read_csv("data/restaurants_train.csv"), tokenizer)
+absa_train_ds = dataset_ABSA(pd.read_csv("data/ABSArestaurants_train.csv"), tokenizer)
 absa_val_ds = dataset_ABSA(pd.read_csv("data/restaurants_val.csv"), tokenizer)
 absa_test_ds = dataset_ABSA(pd.read_csv("data/restaurants_test.csv"), tokenizer)
 absa_train_loader = DataLoader(absa_train_ds, batch_size=16, collate_fn=create_mini_batch_absa, shuffle=True)
@@ -232,16 +232,16 @@ absa_val_loader = DataLoader(absa_val_ds, batch_size=16, collate_fn=create_mini_
 absa_test_loader = DataLoader(absa_test_ds, batch_size=16, collate_fn=create_mini_batch_absa, shuffle=False)
 
 # Train and Test ATE
-# print("Starting to train ATE model...")
-# train_ate(ate_train_loader, ate_model, optimizer_ATE, epochs=5)
-# save_model_pkl(ate_model, "ate_model.pkl")
-# print("Starting to test ATE model...")
-# truths, predictions = test_ate(ate_test_loader, ate_model)
-# print(classification_report(truths, predictions, target_names=["Non-Aspect", "B-Term", "I-Term"]))
+print("Starting to train ATE model...")
+train_ate(ate_train_loader, ate_model, optimizer_ATE, epochs=5)
+save_model_pkl(ate_model, "ate_model_v1.pkl")
+print("Starting to test ATE model...")
+truths, predictions = test_ate(ate_test_loader, ate_model)
+print(classification_report(truths, predictions, target_names=["Non-Aspect", "B-Term", "I-Term"]))
 
 # Train and Validate ABSA
 print("Starting to train ABSA model...")
-train_absa(absa_train_loader, absa_val_loader, absa_model, optimizer_ABSA, epochs=10)
+train_absa(absa_train_loader, absa_val_loader, absa_model, optimizer_ABSA, epochs=8)
 
 # Test ABSA Model
 print("Starting to test ABSA model...")
