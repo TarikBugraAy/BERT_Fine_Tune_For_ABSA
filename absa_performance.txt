@@ -1,0 +1,100 @@
+Using device: cuda:0
+GPU in use: NVIDIA GeForce RTX 4060 Laptop GPU
+Starting to train ABSA model...
+Starting ABSA Training...
+Epoch 1/5...
+  Batch 10/122 - Loss: 1.3133
+  Batch 20/122 - Loss: 1.0732
+  Batch 30/122 - Loss: 1.0749
+  Batch 40/122 - Loss: 1.0333
+  Batch 50/122 - Loss: 1.2109
+  Batch 60/122 - Loss: 1.0641
+  Batch 70/122 - Loss: 1.1873
+  Batch 80/122 - Loss: 1.0556
+  Batch 90/122 - Loss: 1.0202
+  Batch 100/122 - Loss: 1.0643
+  Batch 110/122 - Loss: 0.9646
+  Batch 120/122 - Loss: 0.9911
+Epoch 1 completed. Average Loss: 1.1123
+  Validating...
+  Validation Loss: 0.9498
+  Model saved with improved validation loss.
+Epoch 2/5...
+  Batch 10/122 - Loss: 0.7725
+  Batch 20/122 - Loss: 0.7815
+  Batch 30/122 - Loss: 1.1607
+  Batch 40/122 - Loss: 0.8037
+  Batch 50/122 - Loss: 0.6746
+  Batch 60/122 - Loss: 0.6421
+  Batch 70/122 - Loss: 0.6450
+  Batch 80/122 - Loss: 0.7290
+  Batch 90/122 - Loss: 0.9316
+  Batch 100/122 - Loss: 0.9038
+  Batch 110/122 - Loss: 1.0962
+  Batch 120/122 - Loss: 1.0421
+Epoch 2 completed. Average Loss: 0.8449
+  Validating...
+  Validation Loss: 0.7127
+  Model saved with improved validation loss.
+Epoch 3/5...
+  Batch 10/122 - Loss: 0.6186
+  Batch 20/122 - Loss: 0.6398
+  Batch 30/122 - Loss: 0.5550
+  Batch 40/122 - Loss: 0.4849
+  Batch 50/122 - Loss: 0.7428
+  Batch 60/122 - Loss: 0.4412
+  Batch 70/122 - Loss: 0.8492
+  Batch 80/122 - Loss: 0.5310
+  Batch 90/122 - Loss: 0.5640
+  Batch 100/122 - Loss: 0.8004
+  Batch 110/122 - Loss: 0.5363
+  Batch 120/122 - Loss: 0.7646
+Epoch 3 completed. Average Loss: 0.6751
+  Validating...
+  Validation Loss: 0.6864
+  Model saved with improved validation loss.
+Epoch 4/5...
+  Batch 10/122 - Loss: 0.6908
+  Batch 20/122 - Loss: 0.4989
+  Batch 30/122 - Loss: 0.5395
+  Batch 40/122 - Loss: 0.6278
+  Batch 50/122 - Loss: 0.4474
+  Batch 60/122 - Loss: 0.6623
+  Batch 70/122 - Loss: 0.7984
+  Batch 80/122 - Loss: 0.7175
+  Batch 90/122 - Loss: 0.5859
+  Batch 100/122 - Loss: 0.6048
+  Batch 110/122 - Loss: 0.5297
+  Batch 120/122 - Loss: 0.5034
+Epoch 4 completed. Average Loss: 0.5680
+  Validating...
+  Validation Loss: 0.6404
+  Model saved with improved validation loss.
+Epoch 5/5...
+  Batch 10/122 - Loss: 0.7009
+  Batch 20/122 - Loss: 0.3237
+  Batch 30/122 - Loss: 0.4329
+  Batch 40/122 - Loss: 0.6036
+  Batch 50/122 - Loss: 0.3245
+  Batch 60/122 - Loss: 0.3374
+  Batch 70/122 - Loss: 0.4513
+  Batch 80/122 - Loss: 0.7688
+  Batch 90/122 - Loss: 0.6844
+  Batch 100/122 - Loss: 0.6094
+  Batch 110/122 - Loss: 0.4646
+  Batch 120/122 - Loss: 0.6257
+Epoch 5 completed. Average Loss: 0.4579
+  Validating...
+  Validation Loss: 0.6255
+  Model saved with improved validation loss.
+ABSA Training Completed.
+Starting to test ABSA model...
+              precision    recall  f1-score   support
+
+    Negative       0.70      0.78      0.73       196
+     Neutral       0.53      0.53      0.53       196
+    Positive       0.91      0.88      0.90       727
+
+    accuracy                           0.80      1119
+   macro avg       0.71      0.73      0.72      1119
+weighted avg       0.81      0.80      0.80      1119
