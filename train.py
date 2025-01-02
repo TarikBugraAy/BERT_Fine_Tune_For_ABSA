@@ -1,7 +1,6 @@
 import sys
 import os
 import pandas as pd
-import time
 import numpy as np
 from sklearn.metrics import classification_report
 from torch.utils.data import DataLoader
@@ -12,6 +11,8 @@ from dataset import dataset_ATM, dataset_ABSA
 from bert import bert_ATE, bert_ABSA
 import torch
 from transformers import logging
+
+# Suppress warnings
 logging.set_verbosity_error()
 
 # Initialize device
@@ -223,7 +224,6 @@ ate_train_loader = DataLoader(ate_train_ds, batch_size=8, collate_fn=create_mini
 ate_test_loader = DataLoader(ate_test_ds, batch_size=8, collate_fn=create_mini_batch, shuffle=False)
 
 # ABSA Data
-# absa_train_ds = dataset_ABSA(pd.read_csv("data/ABSA5restaurants_train.csv"), tokenizer)
 absa_train_ds = dataset_ABSA(pd.read_csv("data/ABSArestaurants_train.csv"), tokenizer)
 absa_val_ds = dataset_ABSA(pd.read_csv("data/restaurants_val.csv"), tokenizer)
 absa_test_ds = dataset_ABSA(pd.read_csv("data/restaurants_test.csv"), tokenizer)
@@ -231,19 +231,37 @@ absa_train_loader = DataLoader(absa_train_ds, batch_size=16, collate_fn=create_m
 absa_val_loader = DataLoader(absa_val_ds, batch_size=16, collate_fn=create_mini_batch_absa, shuffle=False)
 absa_test_loader = DataLoader(absa_test_ds, batch_size=16, collate_fn=create_mini_batch_absa, shuffle=False)
 
-# Train and Test ATE
-print("Starting to train ATE model...")
-train_ate(ate_train_loader, ate_model, optimizer_ATE, epochs=5)
-save_model_pkl(ate_model, "ate_model_v1.pkl")
-print("Starting to test ATE model...")
-truths, predictions = test_ate(ate_test_loader, ate_model)
-print(classification_report(truths, predictions, target_names=["Non-Aspect", "B-Term", "I-Term"]))
 
-# Train and Validate ABSA
-print("Starting to train ABSA model...")
-train_absa(absa_train_loader, absa_val_loader, absa_model, optimizer_ABSA, epochs=8)
+#PROMPT USER FOR TRAINING MODE
+if __name__ == "__main__":
 
-# Test ABSA Model
-print("Starting to test ABSA model...")
-truths, predictions = test_absa(absa_test_loader, absa_model)
-print(classification_report(truths, predictions, target_names=["Negative", "Neutral", "Positive"]))
+    train_mode = input(
+        "Select training mode:\n"
+        "1) ATE Only\n"
+        "2) ABSA Only\n"
+        "3) Both ATE and ABSA\n"
+        "Enter choice (1, 2, or 3 (or type 'q' to quit)): "
+    ).strip()
+
+    # TRAIN/TEST ATE IF CHOSEN
+    if train_mode in ["1", "3"]:
+        print("\nStarting to train ATE model...")
+        train_ate(ate_train_loader, ate_model, optimizer_ATE, epochs=5)
+        save_model_pkl(ate_model, "ate_model_v1.pkl")
+
+        print("Starting to test ATE model...")
+        truths, predictions = test_ate(ate_test_loader, ate_model)
+        print(classification_report(truths, predictions, target_names=["Non-Aspect", "B-Term", "I-Term"]))
+
+    # TRAIN/TEST ABSA IF CHOSEN
+    if train_mode in ["2", "3"]:
+        print("\nStarting to train ABSA model...")
+        train_absa(absa_train_loader, absa_val_loader, absa_model, optimizer_ABSA, epochs=8)
+
+        print("Starting to test ABSA model...")
+        truths, predictions = test_absa(absa_test_loader, absa_model)
+        print(classification_report(truths, predictions, target_names=["Negative", "Neutral", "Positive"]))
+
+    if train_mode.lower() in ["q", "quit"]:
+        print("Exiting...")
+        sys.exit(0)

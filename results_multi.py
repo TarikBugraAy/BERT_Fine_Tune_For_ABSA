@@ -192,7 +192,7 @@ if __name__ == "__main__":
         elif choice == "2":
             run_random_sample(data_dict)
         elif choice == "3":
-            print("Session Ending")
+            print("Exiting...")
             break
         else:
             print("Invalid choice. Please choose 1, 2, or 3.\n")

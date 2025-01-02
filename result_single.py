@@ -80,8 +80,8 @@ def determine_polarity(sentence, aspect_terms):
 
     return polarities
 
-# Main function for testing
-def test_pipeline(sentence):
+# Main 
+def main_pipeline(sentence):
     print(f"Input Sentence: {sentence}")
     aspect_terms = extract_aspect_terms(sentence)
     print(f"Extracted Aspect Terms: {aspect_terms}")
@@ -100,4 +100,4 @@ if __name__ == "__main__":
         if sentence.lower() in ["q", "quit"]:
             print("Exiting...")
             break
-        test_pipeline(sentence)
+        main_pipeline(sentence)
