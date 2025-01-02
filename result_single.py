@@ -1,9 +1,10 @@
+import os
 import torch
 from transformers import BertTokenizer, logging
 from bert import bert_ATE, bert_ABSA
 import warnings
 
-# Suppress  warnings
+# Suppress warnings
 warnings.filterwarnings("ignore", category=UserWarning)
 warnings.filterwarnings("ignore", category=FutureWarning)
 logging.set_verbosity_error()
@@ -15,13 +16,37 @@ DEVICE = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 pretrain_model_name = "bert-large-uncased"
 tokenizer = BertTokenizer.from_pretrained(pretrain_model_name)
 
+# User's choice for model selection
+print("=========================== MENU ===========================")
+print("Choose which model files to use:\n")
+print("1) Models fine-tuned by us --> (ate_model.pkl and absa_model.pkl)\n")
+print("2) Models trained by user if he/she run the training files before running this --> (ate_model_v1.pkl and absa_model_v1.pkl)\n")
+
+choice = input("Enter 1 or 2: ").strip()
+
+if choice == "2":
+    print("Loading ate_model_v1.pkl and absa_model_v1.pkl models.")
+    print("================================================================")
+    ate_model_file = "ate_model_v1.pkl"
+    absa_model_file = "absa_model_v1.pkl"
+    if not (os.path.exists(ate_model_file) and os.path.exists(absa_model_file)):
+        print(f"Files not found. Falling back to pre-trained models --> (ate_model.pkl and absa_model.pkl).\n")
+        print("================================================================")
+        ate_model_file = "ate_model.pkl"
+        absa_model_file = "absa_model.pkl"
+else:
+    print("Loading ate_model.pkl and absa_model.pkl models.")
+    print("================================================================")
+    ate_model_file = "ate_model.pkl"
+    absa_model_file = "absa_model.pkl"
+
 # Load trained models
 ate_model = bert_ATE.from_pretrained(pretrain_model_name, num_labels=3).to(DEVICE)
-ate_model.load_state_dict(torch.load("ate_model.pkl"))
+ate_model.load_state_dict(torch.load(ate_model_file))
 ate_model.eval()
 
 absa_model = bert_ABSA.from_pretrained(pretrain_model_name, num_labels=3).to(DEVICE)
-absa_model.load_state_dict(torch.load("absa_model.pkl"))
+absa_model.load_state_dict(torch.load(absa_model_file))
 absa_model.eval()
 
 # Function to extract aspect terms
@@ -82,22 +107,27 @@ def determine_polarity(sentence, aspect_terms):
 
 # Main 
 def main_pipeline(sentence):
+    print("\n=========================== Input Sentence ===========================")
     print(f"Input Sentence: {sentence}")
     aspect_terms = extract_aspect_terms(sentence)
     print(f"Extracted Aspect Terms: {aspect_terms}")
 
     if aspect_terms:
         polarities = determine_polarity(sentence, aspect_terms)
+        print("\n================================================================")
         print("Aspect Terms and Their Polarities:")
         for term, polarity in polarities.items():
             print(f"  {term}: {polarity}")
     else:
         print("No aspect terms found.")
+        print("================================================================")
 
 if __name__ == "__main__":
     while True:
+        print("\n================================================================")
         sentence = input("Enter a sentence (or type 'q' to quit): ")
         if sentence.lower() in ["q", "quit"]:
             print("Exiting...")
+            print("================================================================")
             break
         main_pipeline(sentence)

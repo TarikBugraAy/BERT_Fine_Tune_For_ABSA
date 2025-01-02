@@ -17,12 +17,15 @@ logging.set_verbosity_error()
 
 # Initialize device
 DEVICE = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-print(f"Using device: {DEVICE}")
+print("\n=========================== DEVICE INFO ===========================")
 
 if DEVICE.type == "cuda":
-    print(f"GPU in use: {torch.cuda.get_device_name(0)}")
+    print(f"✔ GPU detected and in use: {torch.cuda.get_device_name(0)}")
 else:
-    print("Using CPU")
+    print("⚠ Using CPU. Consider enabling a GPU for faster performance.")
+
+print("==================================================================\n")
+
 
 pretrain_model_name = "bert-large-uncased"
 tokenizer = BertTokenizer.from_pretrained(pretrain_model_name)
@@ -239,7 +242,7 @@ if __name__ == "__main__":
         "Select training mode:\n"
         "1) ATE Only\n"
         "2) ABSA Only\n"
-        "3) Both ATE and ABSA\n"
+        "3) Both ATE and ABSA models\n"
         "Enter choice (1, 2, or 3 (or type 'q' to quit)): "
     ).strip()
 
@@ -249,7 +252,7 @@ if __name__ == "__main__":
         train_ate(ate_train_loader, ate_model, optimizer_ATE, epochs=5)
         save_model_pkl(ate_model, "ate_model_v1.pkl")
 
-        print("Starting to test ATE model...")
+        print("\nStarting to test ATE model...")
         truths, predictions = test_ate(ate_test_loader, ate_model)
         print(classification_report(truths, predictions, target_names=["Non-Aspect", "B-Term", "I-Term"]))
 
@@ -258,10 +261,10 @@ if __name__ == "__main__":
         print("\nStarting to train ABSA model...")
         train_absa(absa_train_loader, absa_val_loader, absa_model, optimizer_ABSA, epochs=8)
 
-        print("Starting to test ABSA model...")
+        print("\nStarting to test ABSA model...")
         truths, predictions = test_absa(absa_test_loader, absa_model)
         print(classification_report(truths, predictions, target_names=["Negative", "Neutral", "Positive"]))
 
     if train_mode.lower() in ["q", "quit"]:
-        print("Exiting...")
+        print("\nExiting...\n")
         sys.exit(0)

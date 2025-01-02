@@ -3,6 +3,7 @@ import json
 import random
 import torch
 import warnings
+import os
 
 from transformers import BertTokenizer, logging
 from bert import bert_ATE, bert_ABSA 
@@ -18,15 +19,37 @@ DEVICE = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 pretrain_model_name = "bert-large-uncased"
 tokenizer = BertTokenizer.from_pretrained(pretrain_model_name)
 
-# Instantiate model classes
-ate_model = bert_ATE.from_pretrained(pretrain_model_name, num_labels=3).to(DEVICE)
-absa_model = bert_ABSA.from_pretrained(pretrain_model_name, num_labels=3).to(DEVICE)
+# User's choice for model selection
+print("=========================== MENU ===========================")
+print("Choose which model files to use:\n")
+print("1) Models fine-tuned by us --> (ate_model.pkl and absa_model.pkl)\n")
+print("2) Models trained by user if he/she run the training files before running this --> (ate_model_v1.pkl and absa_model_v1.pkl)\n")
+choice = input("Enter 1 or 2: ").strip()
 
-# Load their saved weights
-ate_model.load_state_dict(torch.load("ate_model.pkl", map_location=DEVICE))
+if choice == "2":
+    print("Loading ate_model_v1.pkl and absa_model_v1.pkl models.")
+    print("================================================================")
+    ate_model_file = "ate_model_v1.pkl"
+    absa_model_file = "absa_model_v1.pkl"
+    if not (os.path.exists(ate_model_file) and os.path.exists(absa_model_file)):
+        print(f"Files not found. Falling back to pre-trained models --> (ate_model.pkl and absa_model.pkl).\n")
+        print("================================================================")
+        ate_model_file = "ate_model.pkl"
+        absa_model_file = "absa_model.pkl"
+else:
+    print("Loading ate_model.pkl and absa_model.pkl models.")
+    print("================================================================")
+    ate_model_file = "ate_model.pkl"
+    absa_model_file = "absa_model.pkl"
+
+
+# Instantiate model classes and load their saved weights
+ate_model = bert_ATE.from_pretrained(pretrain_model_name, num_labels=3).to(DEVICE)
+ate_model.load_state_dict(torch.load(ate_model_file, map_location=DEVICE))
 ate_model.eval()
 
-absa_model.load_state_dict(torch.load("absa_model.pkl", map_location=DEVICE))
+absa_model = bert_ABSA.from_pretrained(pretrain_model_name, num_labels=3).to(DEVICE)
+absa_model.load_state_dict(torch.load(absa_model_file, map_location=DEVICE))
 absa_model.eval()
 
 
@@ -53,10 +76,6 @@ def load_csv_data(file_path):
 
 #MODEL-INFERENCE FUNCTIONS
 def extract_aspect_terms(sentence):
-    """
-    Uses ATE model to get aspect terms from the sentence.
-    Merges subwords labeled as B-Term and I-Term.
-    """
     tokens = tokenizer.tokenize(sentence)
     input_ids = tokenizer.encode(sentence, return_tensors="pt").to(DEVICE)
     attention_mask = (input_ids != 0).long()
@@ -181,18 +200,21 @@ if __name__ == "__main__":
     data_dict = load_csv_data(csv_file_path)
 
     while True:
-        print("========== MENU ==========")
-        print("1) Run model on entire CSV and save JSON")
-        print("2) Randomly sample sentences from CSV (show results in console)")
-        print("3) Quit")
+        print("\n=========================== OPTIONS ===========================")
+        print("\n1) Run model on entire testing file and save results to results.json")
+        print("\n2) Randomly sample sentences from testing file (show results in console)")
+        print("\n3) Quit\n")
         choice = input("Choose an option (1, 2, or 3): ").strip()
 
         if choice == "1":
             run_entire_csv_and_save_json(data_dict)
+            print("================================================================")
         elif choice == "2":
             run_random_sample(data_dict)
+            print("================================================================")
         elif choice == "3":
             print("Exiting...")
+            print("================================================================")
             break
         else:
             print("Invalid choice. Please choose 1, 2, or 3.\n")
