@@ -1,5 +1,0 @@
-# Ignore all .pkl files
-*.pkl
-
-# If you want to exclude specific .pkl files, uncomment and list them below
-# !specific_file.pkl
