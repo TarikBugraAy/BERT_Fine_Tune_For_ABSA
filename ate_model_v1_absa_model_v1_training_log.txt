@@ -1,0 +1,423 @@
+=========================== TRAINING OPTIONS ===========================
+1) Yes, run the training phase
+2) Skip to testing
+3) Skip to results
+4) Exit the program
+================================================================
+
+Enter your choice (1, 2, 3, or 4): 1
+
+Running train.py...
+
+
+=========================== DEVICE INFO ===========================
+GPU detected and in use: NVIDIA GeForce RTX 4060 Laptop GPU
+==================================================================
+
+================================================================
+Select training mode:
+1) ATE Only
+2) ABSA Only
+3) Both ATE and ABSA models
+Enter choice (1, 2, or 3 (or type 'q' to quit)): 3
+
+
+Starting to train ATE model...
+Starting ATE Training...
+Epoch 1/5...
+  Batch 10/451 - Loss: 0.3231
+  Batch 20/451 - Loss: 0.2007
+  Batch 30/451 - Loss: 0.3177
+  Batch 40/451 - Loss: 0.3427
+  Batch 50/451 - Loss: 0.3389
+  Batch 60/451 - Loss: 0.1294
+  Batch 70/451 - Loss: 0.1783
+  Batch 80/451 - Loss: 0.1921
+  Batch 90/451 - Loss: 0.2558
+  Batch 100/451 - Loss: 0.1406
+  Batch 110/451 - Loss: 0.1050
+  Batch 120/451 - Loss: 0.1504
+  Batch 130/451 - Loss: 0.0611
+  Batch 140/451 - Loss: 0.1252
+  Batch 150/451 - Loss: 0.1218
+  Batch 160/451 - Loss: 0.1731
+  Batch 170/451 - Loss: 0.2629
+  Batch 180/451 - Loss: 0.2012
+  Batch 190/451 - Loss: 0.2064
+  Batch 200/451 - Loss: 0.1933
+  Batch 210/451 - Loss: 0.2732
+  Batch 220/451 - Loss: 0.1393
+  Batch 230/451 - Loss: 0.0811
+  Batch 240/451 - Loss: 0.1256
+  Batch 250/451 - Loss: 0.1325
+  Batch 260/451 - Loss: 0.2136
+  Batch 270/451 - Loss: 0.0869
+  Batch 280/451 - Loss: 0.1451
+  Batch 290/451 - Loss: 0.0496
+  Batch 300/451 - Loss: 0.1032
+  Batch 310/451 - Loss: 0.0319
+  Batch 320/451 - Loss: 0.0723
+  Batch 330/451 - Loss: 0.0499
+  Batch 340/451 - Loss: 0.1973
+  Batch 350/451 - Loss: 0.1173
+  Batch 360/451 - Loss: 0.1089
+  Batch 370/451 - Loss: 0.0369
+  Batch 380/451 - Loss: 0.0455
+  Batch 390/451 - Loss: 0.2841
+  Batch 400/451 - Loss: 0.0123
+  Batch 410/451 - Loss: 0.1654
+  Batch 420/451 - Loss: 0.0816
+  Batch 430/451 - Loss: 0.1150
+  Batch 440/451 - Loss: 0.1272
+  Batch 450/451 - Loss: 0.0547
+Epoch 1 completed. Average Loss: 0.1432
+Epoch 2/5...
+  Batch 10/451 - Loss: 0.0198
+  Batch 20/451 - Loss: 0.0419
+  Batch 30/451 - Loss: 0.0590
+  Batch 40/451 - Loss: 0.0521
+  Batch 50/451 - Loss: 0.0422
+  Batch 60/451 - Loss: 0.1112
+  Batch 70/451 - Loss: 0.1176
+  Batch 80/451 - Loss: 0.0471
+  Batch 90/451 - Loss: 0.0250
+  Batch 100/451 - Loss: 0.0367
+  Batch 110/451 - Loss: 0.0560
+  Batch 120/451 - Loss: 0.1070
+  Batch 130/451 - Loss: 0.0707
+  Batch 140/451 - Loss: 0.0524
+  Batch 150/451 - Loss: 0.0162
+  Batch 160/451 - Loss: 0.0729
+  Batch 170/451 - Loss: 0.0396
+  Batch 180/451 - Loss: 0.0759
+  Batch 190/451 - Loss: 0.0475
+  Batch 200/451 - Loss: 0.0595
+  Batch 210/451 - Loss: 0.0543
+  Batch 220/451 - Loss: 0.1035
+  Batch 230/451 - Loss: 0.0486
+  Batch 240/451 - Loss: 0.0939
+  Batch 250/451 - Loss: 0.0469
+  Batch 260/451 - Loss: 0.0630
+  Batch 270/451 - Loss: 0.0388
+  Batch 280/451 - Loss: 0.0609
+  Batch 290/451 - Loss: 0.1280
+  Batch 300/451 - Loss: 0.1023
+  Batch 310/451 - Loss: 0.0470
+  Batch 320/451 - Loss: 0.0366
+  Batch 330/451 - Loss: 0.0174
+  Batch 340/451 - Loss: 0.0876
+  Batch 350/451 - Loss: 0.0428
+  Batch 360/451 - Loss: 0.0181
+  Batch 370/451 - Loss: 0.0438
+  Batch 380/451 - Loss: 0.0206
+  Batch 390/451 - Loss: 0.0461
+  Batch 400/451 - Loss: 0.0331
+  Batch 410/451 - Loss: 0.0539
+  Batch 420/451 - Loss: 0.0272
+  Batch 430/451 - Loss: 0.0082
+  Batch 440/451 - Loss: 0.0360
+  Batch 450/451 - Loss: 0.0125
+Epoch 2 completed. Average Loss: 0.0485
+Epoch 3/5...
+  Batch 10/451 - Loss: 0.0315
+  Batch 20/451 - Loss: 0.0097
+  Batch 30/451 - Loss: 0.0223
+  Batch 40/451 - Loss: 0.0186
+  Batch 50/451 - Loss: 0.0048
+  Batch 60/451 - Loss: 0.0076
+  Batch 70/451 - Loss: 0.0231
+  Batch 80/451 - Loss: 0.0209
+  Batch 90/451 - Loss: 0.0402
+  Batch 100/451 - Loss: 0.0100
+  Batch 110/451 - Loss: 0.0209
+  Batch 120/451 - Loss: 0.0107
+  Batch 130/451 - Loss: 0.0170
+  Batch 140/451 - Loss: 0.0056
+  Batch 150/451 - Loss: 0.0395
+  Batch 160/451 - Loss: 0.0053
+  Batch 170/451 - Loss: 0.0219
+  Batch 180/451 - Loss: 0.0583
+  Batch 190/451 - Loss: 0.0176
+  Batch 200/451 - Loss: 0.0160
+  Batch 210/451 - Loss: 0.0257
+  Batch 220/451 - Loss: 0.0116
+  Batch 230/451 - Loss: 0.0097
+  Batch 240/451 - Loss: 0.0138
+  Batch 250/451 - Loss: 0.1446
+  Batch 260/451 - Loss: 0.0199
+  Batch 270/451 - Loss: 0.0294
+  Batch 280/451 - Loss: 0.0348
+  Batch 290/451 - Loss: 0.0077
+  Batch 300/451 - Loss: 0.0307
+  Batch 310/451 - Loss: 0.0151
+  Batch 320/451 - Loss: 0.0096
+  Batch 330/451 - Loss: 0.0809
+  Batch 340/451 - Loss: 0.0043
+  Batch 350/451 - Loss: 0.0128
+  Batch 360/451 - Loss: 0.0092
+  Batch 370/451 - Loss: 0.0232
+  Batch 380/451 - Loss: 0.0184
+  Batch 390/451 - Loss: 0.0188
+  Batch 400/451 - Loss: 0.0292
+  Batch 410/451 - Loss: 0.0414
+  Batch 420/451 - Loss: 0.0166
+  Batch 430/451 - Loss: 0.0211
+  Batch 440/451 - Loss: 0.0093
+  Batch 450/451 - Loss: 0.0183
+Epoch 3 completed. Average Loss: 0.0251
+Epoch 4/5...
+  Batch 10/451 - Loss: 0.0081
+  Batch 20/451 - Loss: 0.0070
+  Batch 30/451 - Loss: 0.0123
+  Batch 40/451 - Loss: 0.0115
+  Batch 50/451 - Loss: 0.0079
+  Batch 60/451 - Loss: 0.0118
+  Batch 70/451 - Loss: 0.0039
+  Batch 80/451 - Loss: 0.0976
+  Batch 90/451 - Loss: 0.0044
+  Batch 100/451 - Loss: 0.0060
+  Batch 110/451 - Loss: 0.0017
+  Batch 120/451 - Loss: 0.0044
+  Batch 130/451 - Loss: 0.0043
+  Batch 140/451 - Loss: 0.0383
+  Batch 150/451 - Loss: 0.0284
+  Batch 160/451 - Loss: 0.0097
+  Batch 170/451 - Loss: 0.0389
+  Batch 180/451 - Loss: 0.0089
+  Batch 190/451 - Loss: 0.0274
+  Batch 200/451 - Loss: 0.0059
+  Batch 210/451 - Loss: 0.0129
+  Batch 220/451 - Loss: 0.0015
+  Batch 230/451 - Loss: 0.0143
+  Batch 240/451 - Loss: 0.0115
+  Batch 250/451 - Loss: 0.0175
+  Batch 260/451 - Loss: 0.0035
+  Batch 270/451 - Loss: 0.0012
+  Batch 280/451 - Loss: 0.0063
+  Batch 290/451 - Loss: 0.0045
+  Batch 300/451 - Loss: 0.0008
+  Batch 310/451 - Loss: 0.0177
+  Batch 320/451 - Loss: 0.0071
+  Batch 330/451 - Loss: 0.0008
+  Batch 340/451 - Loss: 0.0039
+  Batch 350/451 - Loss: 0.0199
+  Batch 360/451 - Loss: 0.0010
+  Batch 370/451 - Loss: 0.0031
+  Batch 380/451 - Loss: 0.0076
+  Batch 390/451 - Loss: 0.0228
+  Batch 400/451 - Loss: 0.0546
+  Batch 410/451 - Loss: 0.0213
+  Batch 420/451 - Loss: 0.0034
+  Batch 430/451 - Loss: 0.0118
+  Batch 440/451 - Loss: 0.0018
+  Batch 450/451 - Loss: 0.1700
+Epoch 4 completed. Average Loss: 0.0148
+Epoch 5/5...
+  Batch 10/451 - Loss: 0.0198
+  Batch 20/451 - Loss: 0.0023
+  Batch 30/451 - Loss: 0.0022
+  Batch 40/451 - Loss: 0.0291
+  Batch 50/451 - Loss: 0.0066
+  Batch 60/451 - Loss: 0.0075
+  Batch 70/451 - Loss: 0.0082
+  Batch 80/451 - Loss: 0.0154
+  Batch 90/451 - Loss: 0.0009
+  Batch 100/451 - Loss: 0.0017
+  Batch 110/451 - Loss: 0.0088
+  Batch 120/451 - Loss: 0.0076
+  Batch 130/451 - Loss: 0.0020
+  Batch 140/451 - Loss: 0.0013
+  Batch 150/451 - Loss: 0.0132
+  Batch 160/451 - Loss: 0.0058
+  Batch 170/451 - Loss: 0.0345
+  Batch 180/451 - Loss: 0.0242
+  Batch 190/451 - Loss: 0.0351
+  Batch 200/451 - Loss: 0.0033
+  Batch 210/451 - Loss: 0.0003
+  Batch 220/451 - Loss: 0.0020
+  Batch 230/451 - Loss: 0.0106
+  Batch 240/451 - Loss: 0.0080
+  Batch 250/451 - Loss: 0.0048
+  Batch 260/451 - Loss: 0.0193
+  Batch 270/451 - Loss: 0.0070
+  Batch 280/451 - Loss: 0.0273
+  Batch 290/451 - Loss: 0.0342
+  Batch 300/451 - Loss: 0.0158
+  Batch 310/451 - Loss: 0.0001
+  Batch 320/451 - Loss: 0.0102
+  Batch 330/451 - Loss: 0.0167
+  Batch 340/451 - Loss: 0.0387
+  Batch 350/451 - Loss: 0.0273
+  Batch 360/451 - Loss: 0.0432
+  Batch 370/451 - Loss: 0.0054
+  Batch 380/451 - Loss: 0.0016
+  Batch 390/451 - Loss: 0.0159
+  Batch 400/451 - Loss: 0.0768
+  Batch 410/451 - Loss: 0.0030
+  Batch 420/451 - Loss: 0.0015
+  Batch 430/451 - Loss: 0.0074
+  Batch 440/451 - Loss: 0.0030
+  Batch 450/451 - Loss: 0.0042
+Epoch 5 completed. Average Loss: 0.0139
+ATE Training Completed.
+
+Starting to test ATE model...
+              precision    recall  f1-score   support
+
+  Non-Aspect       0.98      0.99      0.99     32262
+      B-Term       0.90      0.86      0.88      4022
+      I-Term       0.81      0.84      0.82      2141
+
+    accuracy                           0.97     38425
+   macro avg       0.90      0.90      0.90     38425
+weighted avg       0.97      0.97      0.97     38425
+
+
+Starting to train ABSA model...
+Starting ABSA Training...
+Epoch 1/8...
+  Batch 10/122 - Loss: 1.0265
+  Batch 20/122 - Loss: 1.1713
+  Batch 30/122 - Loss: 1.1078
+  Batch 40/122 - Loss: 1.2946
+  Batch 50/122 - Loss: 0.9649
+  Batch 60/122 - Loss: 1.0919
+  Batch 70/122 - Loss: 1.0429
+  Batch 80/122 - Loss: 1.1892
+  Batch 90/122 - Loss: 1.1481
+  Batch 100/122 - Loss: 0.9955
+  Batch 110/122 - Loss: 1.1545
+  Batch 120/122 - Loss: 1.0782
+Epoch 1 completed. Average Loss: 1.1170
+  Validating...
+  Validation Loss: 1.1083
+  Model saved with improved validation loss.
+Epoch 2/8...
+  Batch 10/122 - Loss: 1.1993
+  Batch 20/122 - Loss: 1.1122
+  Batch 30/122 - Loss: 0.9884
+  Batch 40/122 - Loss: 1.1561
+  Batch 50/122 - Loss: 1.0772
+  Batch 60/122 - Loss: 1.1555
+  Batch 70/122 - Loss: 1.0270
+  Batch 80/122 - Loss: 1.0546
+  Batch 90/122 - Loss: 1.1112
+  Batch 100/122 - Loss: 1.0606
+  Batch 110/122 - Loss: 1.1373
+  Batch 120/122 - Loss: 0.9966
+Epoch 2 completed. Average Loss: 1.1058
+  Validating...
+  Validation Loss: 1.0326
+  Model saved with improved validation loss.
+Epoch 3/8...
+  Batch 10/122 - Loss: 0.9349
+  Batch 20/122 - Loss: 1.1636
+  Batch 30/122 - Loss: 0.7903
+  Batch 40/122 - Loss: 1.0753
+  Batch 50/122 - Loss: 1.2538
+  Batch 60/122 - Loss: 1.0058
+  Batch 70/122 - Loss: 0.9402
+  Batch 80/122 - Loss: 1.0307
+  Batch 90/122 - Loss: 0.9184
+  Batch 100/122 - Loss: 0.9370
+  Batch 110/122 - Loss: 0.7986
+  Batch 120/122 - Loss: 0.9103
+Epoch 3 completed. Average Loss: 0.9631
+  Validating...
+  Validation Loss: 0.6702
+  Model saved with improved validation loss.
+Epoch 4/8...
+  Batch 10/122 - Loss: 0.7307
+  Batch 20/122 - Loss: 0.9320
+  Batch 30/122 - Loss: 0.6225
+  Batch 40/122 - Loss: 0.8215
+  Batch 50/122 - Loss: 0.6213
+  Batch 60/122 - Loss: 0.6873
+  Batch 70/122 - Loss: 0.9216
+  Batch 80/122 - Loss: 0.5840
+  Batch 90/122 - Loss: 0.4686
+  Batch 100/122 - Loss: 0.9895
+  Batch 110/122 - Loss: 0.8306
+  Batch 120/122 - Loss: 0.4245
+Epoch 4 completed. Average Loss: 0.7366
+  Validating...
+  Validation Loss: 0.6599
+  Model saved with improved validation loss.
+Epoch 5/8...
+  Batch 10/122 - Loss: 0.5961
+  Batch 20/122 - Loss: 0.3483
+  Batch 30/122 - Loss: 0.7638
+  Batch 40/122 - Loss: 0.9127
+  Batch 50/122 - Loss: 0.5632
+  Batch 60/122 - Loss: 0.8181
+  Batch 70/122 - Loss: 0.5171
+  Batch 80/122 - Loss: 0.6263
+  Batch 90/122 - Loss: 0.9401
+  Batch 100/122 - Loss: 0.8425
+  Batch 110/122 - Loss: 1.3921
+  Batch 120/122 - Loss: 0.5447
+Epoch 5 completed. Average Loss: 0.6412
+  Validating...
+  Validation Loss: 0.6226
+  Model saved with improved validation loss.
+Epoch 6/8...
+  Batch 10/122 - Loss: 0.5803
+  Batch 20/122 - Loss: 0.8376
+  Batch 30/122 - Loss: 0.7753
+  Batch 40/122 - Loss: 0.5668
+  Batch 50/122 - Loss: 0.3472
+  Batch 60/122 - Loss: 0.5680
+  Batch 70/122 - Loss: 0.7218
+  Batch 80/122 - Loss: 0.3545
+  Batch 90/122 - Loss: 0.9234
+  Batch 100/122 - Loss: 0.4975
+  Batch 110/122 - Loss: 0.8136
+  Batch 120/122 - Loss: 0.3976
+Epoch 6 completed. Average Loss: 0.5487
+  Validating...
+  Validation Loss: 0.6417
+Epoch 7/8...
+  Batch 10/122 - Loss: 0.5008
+  Batch 20/122 - Loss: 0.4304
+  Batch 30/122 - Loss: 0.8104
+  Batch 40/122 - Loss: 0.5174
+  Batch 50/122 - Loss: 0.6647
+  Batch 60/122 - Loss: 0.4575
+  Batch 70/122 - Loss: 0.4510
+  Batch 80/122 - Loss: 0.4629
+  Batch 90/122 - Loss: 0.8438
+  Batch 100/122 - Loss: 0.4488
+  Batch 110/122 - Loss: 0.5496
+  Batch 120/122 - Loss: 0.5992
+Epoch 7 completed. Average Loss: 0.4607
+  Validating...
+  Validation Loss: 0.6284
+Epoch 8/8...
+  Batch 10/122 - Loss: 0.1119
+  Batch 20/122 - Loss: 0.2435
+  Batch 30/122 - Loss: 0.5117
+  Batch 40/122 - Loss: 0.3227
+  Batch 50/122 - Loss: 0.2199
+  Batch 60/122 - Loss: 0.2847
+  Batch 70/122 - Loss: 0.1678
+  Batch 80/122 - Loss: 0.4378
+  Batch 90/122 - Loss: 0.2566
+  Batch 100/122 - Loss: 0.4239
+  Batch 110/122 - Loss: 0.5347
+  Batch 120/122 - Loss: 0.3035
+Epoch 8 completed. Average Loss: 0.3794
+  Validating...
+  Validation Loss: 0.6438
+ABSA Training Completed.
+
+Starting to test ABSA model...
+              precision    recall  f1-score   support
+
+    Negative       0.69      0.80      0.74       196
+     Neutral       0.52      0.58      0.55       196
+    Positive       0.92      0.85      0.89       727
+
+    accuracy                           0.80      1119
+   macro avg       0.71      0.74      0.72      1119
+weighted avg       0.81      0.80      0.80      1119
+
