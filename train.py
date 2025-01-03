@@ -239,6 +239,7 @@ absa_test_loader = DataLoader(absa_test_ds, batch_size=16, collate_fn=create_min
 if __name__ == "__main__":
 
     train_mode = input(
+        "================================================================\n"
         "Select training mode:\n"
         "1) ATE Only\n"
         "2) ABSA Only\n"
