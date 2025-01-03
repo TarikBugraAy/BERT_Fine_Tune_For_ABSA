@@ -2,6 +2,8 @@ from torch.utils.data import Dataset
 import pandas as pd
 import torch
 
+
+# For ATE part
 class dataset_ATM(Dataset):
     def __init__(self, df, tokenizer):
         self.df = df
@@ -34,7 +36,7 @@ class dataset_ATM(Dataset):
     def __len__(self):
         return len(self.df)
     
-    
+# For ABSA part
 class dataset_ABSA(Dataset):
     def __init__(self, df, tokenizer):
         self.df = df
