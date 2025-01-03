@@ -20,9 +20,9 @@ DEVICE = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 print("\n=========================== DEVICE INFO ===========================")
 
 if DEVICE.type == "cuda":
-    print(f"✔ GPU detected and in use: {torch.cuda.get_device_name(0)}")
+    print(f"GPU detected and in use: {torch.cuda.get_device_name(0)}")
 else:
-    print("⚠ Using CPU. Consider enabling a GPU for faster performance.")
+    print("Using CPU. Consider enabling a GPU for faster performance.")
 
 print("==================================================================\n")
 
