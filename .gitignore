@@ -36,3 +36,4 @@ Thumbs.db
 # Ignore all .pkl files
 *.pkl
 
+*version.py
