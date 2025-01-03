@@ -1,66 +1,149 @@
-# Aspect-term extraction and Aspect-based sentiment analysis
- 
-**Dependencies**
-run ```chmod +x main.sh```
-Run ```./main.sh``` to install the dependencies, to run training and result codes.
-
-# Introduction
-
-
-
-# Task description
-
-
-
-
-
-# Dataset
-
-In order to train and test our models we use a dataset containing restaurant reviews, taken from a preprocessed version, available at [1], of the SemEval-2014 ABSA Task [2].
-
-Data are organized in a csv file, with the following columns:
-- **Tokens**: tokenized sentence;
-- **Tags**: list of tags associated to each token: '0' for non-aspect terms, '1' for beginning of terms and '2' for marks of terms;
-- **Polarities**: list of polarities associated to each token: '0' for negative, '1' for neutral and '2' for positive and '-1' for non-aspect terms;
-
-# Models
-
-
-
-
-
-
+# Aspect-Term Extraction and Aspect-Based Sentiment Analysis (ABSA)
 
 ## Overview
-The main notebook is structured as follows:
-1. Text preprocessing and normalization;
-2. Aspect term extraction: training overview and comparison, testing, evaluation, and visualization;
-3. Aspect-based sentiment analysis:  training overview and comparison, testing, evaluation, and visualization.
+This project implements an **Aspect-Based Sentiment Analysis (ABSA)** pipeline using fine-tuned BERT models. It extracts aspect terms from text (e.g., "sevice," "food", "ambiance") and determines their sentiment polarity (Positive, Neutral, or Negative). The pipeline consists of two primary components:
 
-Since we trained 8 different models, training has been performed separately and loaded in the notebook. Nevertheless, we show the process of training by means of a plot of the training loss.
+1. **Aspect Term Extraction (ATE):** Identifies aspect terms within sentences.
+2. **Aspect-Based Sentiment Analysis (ABSA):** Determines the sentiment polarity of extracted aspect terms.
 
-## Results:
+The project employs pre-trained BERT models fine-tuned for these tasks and provides testing.
+
+## Features
+- Fine-tuned BERT models for ATE and ABSA tasks.
+- User-friendly training and testing scripts.
+- Single and multi processing modes for predictions.
+- Visualization of  performance using classification reports and confusion matrices.
+
+---
+
+## Dependencies
+Install the dependencies by running the following command:
+
+```bash
+chmod +x main.sh
+./main.sh
+```
+This script installs all necessary Python libraries listed in `requirements.txt`.
+
+### Key Libraries:
+- Python: 3.11.9
+- PyTorch: 2.5.1
+- Transformers: 4.45.2
+- Pandas: 2.2.3
+- NumPy: 1.26.4
+- scikit-learn: 1.6.0
+
+---
+
+## Task Description
+**Aspect-Based Sentiment Analysis (ABSA)** aims to provide  sentiment analysis at the aspect level. Given a sentence, the goal is to identify aspects and classify the sentiment polarity associated with each aspect.
+
+### Example:
+**Input:** "The food was delicious, but the service was slow."
+
+**Output:**
+- Aspect: "food" - Sentiment: Positive
+- Aspect: "service" - Sentiment: Negative
+
+---
+
+## Dataset
+The models are trained and tested using the restaurant reviews dataset from a preprocessed version of the SemEval-2014 ABSA Task dataset.Preprocesed version available at [1], of the SemEval-2014 ABSA Task [2]
+
+### Dataset Format:
+The dataset is a CSV file with the following columns:
+- **Tokens:** Tokenized sentence.
+- **Tags:** BIO tagging for aspect terms (`0`: Non-aspect, `1`: Beginning of aspect term, `2`: Inside aspect term).
+- **Polarities:** Sentiment polarities (`0`: Negative, `1`: Neutral, `2`: Positive, `-1`: Non-aspect terms).
+
+---
+
+## Models
+### Aspect Term Extraction (ATE):
+- Model: Fine-tuned BERT
+- Output: BIO tags for aspect terms.
+
+### Aspect-Based Sentiment Analysis (ABSA):
+- Model: Fine-tuned BERT
+- Output: Sentiment polarity for each extracted aspect term.
+
+---
+
+## Implementation
+### Structure:
+- **Training:** Implemented in `train.py` with separate pipelines for ATE and ABSA.
+- **Testing:** Implemented in `test.py`, generating classification reports and confusion matrices.
+- **Inference:** Real-time single-sentence analysis (`result_single.py`) and batch analysis from CSV (`results_multi.py`).
+- **UX Integration:** The project can be run using `main.sh`, which provides an interactive interface to manage the pipeline phases (installation, training, testing, and results).
+
+### Pipeline:
+1. **Text Preprocessing:** Tokenization and BIO tagging.
+2. **Model Training:** Fine-tuning BERT for ATE and ABSA tasks.
+3. **Evaluation:** Classification reports and visualization.
+4. **Inference:** Predict aspect terms and polarities from user input.
+
+---
+
+## Results
+### Aspect Term Extraction (ATE):
+```
+              precision    recall  f1-score   support
+
+  Non-Aspect       0.99      0.99      0.99     32262
+      B-Term       0.89      0.89      0.89      4022
+      I-Term       0.86      0.80      0.83      2141
+
+    accuracy                           0.97     38425
+   macro avg       0.91      0.90      0.90     38425
+weighted avg       0.97      0.97      0.97     38425
+```
+
+### Aspect-Based Sentiment Analysis (ABSA):
+```
+              precision    recall  f1-score   support
+
+    Negative       0.70      0.78      0.73       196
+     Neutral       0.53      0.53      0.53       196
+    Positive       0.91      0.88      0.90       727
+
+    accuracy                           0.80      1119
+   macro avg       0.71      0.73      0.72      1119
+weighted avg       0.81      0.80      0.80      1119
+```
+
+ATE performs nearly excellently, but ABSA has significant room for improvement and does not yet meet the desired performance.
 
 
-## References:
+---
 
-[1] **Aspect-Term-Extraction-and-Analysis**, https://github.com/1tangerine1day/Aspect-Term-Extraction-and-Analysis
+## Usage
+Run the project interactively using the `main.sh` script:
 
-[2] Maria Pontiki, Dimitris Galanis, John Pavlopoulos, Harris Papageorgiou, Ion Androutsopoulos, and Suresh Manandhar. 2014. **SemEval-2014 Task 4: Aspect Based Sentiment Analysis.** In Proceedings of the 8th International Workshop on Semantic Evaluation (SemEval 2014), pages 27–35, Dublin, Ireland. Association for Computational Linguistics.
+```bash
+./main.sh
+```
 
-[3] Devlin, Jacob and Chang, Ming-Wei and Lee, Kenton and Toutanova, Kristina, **BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding**, DOI: 10.48550/ARXIV.1810.04805
+This script provides options to:
+1. Install dependencies.
+2. Train models (ATE, ABSA, or both).
+3. Test models (pre-trained or user-trained).
+4. View results (batch or single-sentence inference).
 
-[4] **HuggingFace BERT models**, https://huggingface.co/docs/transformers/model_doc/bert
+Follow the on-screen instructions to navigate through the options.
 
-[5] **AdapterHub: A Framework for Adapting Transformers**, Jonas Pfeiffer et al., Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP 2020): Systems Demonstrations, https://www.aclweb.org/anthology/2020.emnlp-demos.7
+---
 
-[6] Houlsby, Neil and Giurgiu, Andrei and Jastrzebski, Stanislaw and Morrone, Bruna and de Laroussilhe, Quentin and Gesmundo, Andrea and Attariyan, Mona and Gelly, Sylvain, **Parameter-Efficient Transfer Learning for NLP**, DOI: 10.48550/ARXIV.1902.00751
+## References
+1. **Aspect-Term-Extraction-and-Analysis:** https://github.com/1tangerine1day/Aspect-Term-Extraction-and-Analysis
+2. **SemEval-2014 Task 4:** C. Chugh, “SemEval 2014 Task 4: AspectBasedSentimentAnalysis,” Kaggle.com, 2022. https://www.kaggle.com/datasets/charitarth/semeval-2014-task-4-aspectbasedsentimentanalysis.
+‌
 
-[7] Loshchilov Ilya, Hutter Frank, **Decoupled Weight Decay Regularization**, DOI: 10.48550/ARXIV.1711.05101
+---
 
-[8] PyTorch: An Imperative Style, High-Performance Deep Learning Library}, Paszke Adam,  Gross Sam, Massa Francisco, Lerer Adamm, Bradbury James, Chanan Gregory, Killeen Trevor, Lin Zeming, Gimelshein Natalia, Antiga Luca, Desmaison Alban, Kopf Andreas, Yang Edward, DeVit Zachary, Raison Martin, Tejani Alykhan, Chilamkurthy Sasank, Steiner Benoit, Fang Lu, Bai Junjie, Chintala Soumith, http://papers.neurips.cc/paper/9015-pytorch-an-imperative-style-high-performance-deep-learning-library.pdf
+## Acknowledgements
+While initially inspired by [1], this project has undergone significant modifications and is largely different. However, certain elements, such as the `dataset.py` file, remain directly adapted from the reference repository.
 
-## Aknowledgements
+---
 
-The general structure of the model (i.e. padding, dataset construction...) has been taken from [1], nevetheless we organized the model into a user-friendly class structure which provides a simple interface to the model. Moreover, we changed the optimization strategy, using AdamW instead of a generic Adam, introducing the learning rate scheduling and Adapter option as an alternative to fine-tuning.
-Finally, we add a detailed analysis of the model performance, including the study of the training history, confusion matrix and visualization
+## Contact
+For questions or issues, please reach out to the project contributors or open an issue on the GitHub repository.
