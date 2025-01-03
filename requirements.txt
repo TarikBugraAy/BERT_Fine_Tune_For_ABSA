@@ -1,0 +1,6 @@
+python==3.11.9
+torch==2.5.1+cu118
+pandas==2.2.3
+numpy==1.26.4
+transformers==4.45.2
+scikit-learn==1.6.0
