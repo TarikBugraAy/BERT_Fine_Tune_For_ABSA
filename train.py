@@ -7,8 +7,8 @@ from torch.utils.data import DataLoader
 from transformers import BertTokenizer, get_linear_schedule_with_warmup
 from torch.optim import AdamW
 from torch.nn.utils.rnn import pad_sequence
-from dataset import dataset_ATM, dataset_ABSA
-from bert import bert_ATE, bert_ABSA
+from data_processing import dataset_ATM, dataset_ABSA
+from bert_ate_absa_models import bert_ATE, bert_ABSA
 import torch
 from transformers import logging
 

@@ -1,0 +1,215 @@
+Tokens,Tags,Polarities
+"The pizza was amazing, and the garlic bread was perfectly crispy.",pizza,positive
+"The pizza was amazing, and the garlic bread was perfectly crispy.",garlic bread,positive
+"The dessert was a disappointment, especially the chocolate cake.",dessert,negative
+"The dessert was a disappointment, especially the chocolate cake.",chocolate cake,negative
+"The waiter was friendly, but the service overall was a bit slow.",waiter,positive
+"The waiter was friendly, but the service overall was a bit slow.",service,negative
+"The sushi rolls were fresh and flavorful, but the tempura was too greasy.",sushi rolls,positive
+"The sushi rolls were fresh and flavorful, but the tempura was too greasy.",tempura,negative
+"The ambiance was wonderful, with cozy lighting and soft music.",ambiance,positive
+"The coffee was cold, and the croissant tasted stale.",coffee,negative
+"The coffee was cold, and the croissant tasted stale.",croissant,negative
+"The burgers were juicy, and the fries were perfectly seasoned.",burgers,positive
+"The burgers were juicy, and the fries were perfectly seasoned.",fries,positive
+"The pasta was creamy, and the garlic bread complemented it perfectly.",pasta,positive
+"The pasta was creamy, and the garlic bread complemented it perfectly.",garlic bread,positive
+"The cocktails were refreshing, and the wine selection was impressive.",cocktails,positive
+"The cocktails were refreshing, and the wine selection was impressive.",wine selection,positive
+"The service was attentive, and the food arrived quickly.",service,positive
+"The service was attentive, and the food arrived quickly.",food,positive
+"The salad was bland, and the dressing didn’t help much.",salad,negative
+"The salad was bland, and the dressing didn’t help much.",dressing,negative
+"The desserts were dry, and the ice cream was too sweet.",desserts,negative
+"The desserts were dry, and the ice cream was too sweet.",ice cream,negative
+"The steak was tender, and the mashed potatoes were buttery.",steak,positive
+"The steak was tender, and the mashed potatoes were buttery.",mashed potatoes,positive
+"The seafood platter was fresh, and the oysters were especially good.",seafood platter,positive
+"The seafood platter was fresh, and the oysters were especially good.",oysters,positive
+"The soup was hot.",soup,positive
+"The bread was just okay.",bread,neutral
+"The waiter didn’t say much.",waiter,neutral
+"The coffee was strong.",coffee,positive
+"The tea was average.",tea,neutral
+"The table was clean.",table,positive
+"The fries were cold.",fries,negative
+"The ice cream was too sweet.",ice cream,negative
+"The ambiance was fine.",ambiance,neutral
+"The steak was well-cooked.",steak,positive
+"The chairs were uncomfortable.",chairs,negative
+"The menu had plenty of options.",menu,positive
+"The fish was fresh.",fish,positive
+"The staff didn’t interact much.",staff,neutral
+"The dessert tasted bland.",dessert,negative
+"The pasta was flavorful, and the sauce was rich.",pasta,positive
+"The pasta was flavorful, and the sauce was rich.",sauce,positive
+"The drinks were overpriced.",drinks,negative
+"The soup was served warm, and the bread was soft.",soup,positive
+"The soup was served warm, and the bread was soft.",bread,positive
+"The server was polite but seemed distracted.",server,neutral
+"The ambiance was noisy, but the seating was comfortable.",ambiance,negative
+"The ambiance was noisy, but the seating was comfortable.",seating,positive
+"The portions were generous, and the food was tasty.",portions,positive
+"The portions were generous, and the food was tasty.",food,positive
+"The chicken was dry, but the spices were good.",chicken,negative
+"The chicken was dry, but the spices were good.",spices,positive
+"The salad was fresh and crisp.",salad,positive
+"The menu was confusing to read.",menu,negative
+"The desserts were beautifully presented.",desserts,positive
+"The fish was overcooked.",fish,negative
+"The waiter forgot our order.",waiter,negative
+"The garlic naan was fluffy and perfectly baked.",garlic naan,positive
+"The coffee was fine but nothing special.",coffee,neutral
+"The restaurant’s decor was stunning.",decor,positive
+"The service was slow, and the staff seemed uninterested.",service,negative
+"The service was slow, and the staff seemed uninterested.",staff,negative
+"The tea was soothing and aromatic.",tea,positive
+"The appetizers were decent.",appetizers,neutral
+"The steak was cooked perfectly, and the side salad was fresh.",steak,positive
+"The steak was cooked perfectly, and the side salad was fresh.",side salad,positive
+"The wine was average.",wine,neutral
+"The ice cream melted too quickly.",ice cream,negative
+"The ambiance felt cozy and welcoming.",ambiance,positive
+"The plate was chipped.",plate,negative
+"The shrimp was seasoned well.",shrimp,positive
+"The water was refilled promptly.",water,positive
+"The pricing was reasonable for the quality.",pricing,positive
+"The kitchen noise was too loud.",kitchen noise,negative
+"The curry was spicy but enjoyable.",curry,positive
+"The tablecloth had stains.",tablecloth,negative
+"The pancakes were fluffy and sweet.",pancakes,positive
+"The lemonade was refreshing.",lemonade,positive
+"The rice was undercooked.",rice,negative
+"The pizza crust was thin and crispy.",pizza crust,positive
+"The soup lacked seasoning.",soup,negative
+"The chairs were sturdy.",chairs,neutral
+"The server was attentive and quick.",server,positive
+"The restaurant's location was convenient.",location,positive
+"The pasta portion was too small.",pasta,negative
+"The drinks menu was extensive.",drinks menu,positive
+"The table was wobbly.",table,negative
+"The fish tacos were delicious and well-spiced.",fish tacos,positive
+"The ice cream was average.",ice cream,neutral
+"The napkins were clean and neatly folded.",napkins,positive
+"The appetizer arrived late.",appetizer,negative
+"The dessert menu lacked variety.",dessert menu,negative
+"The garlic bread was burnt.",garlic bread,negative
+"The salad was well-dressed and fresh.",salad,positive
+"The steak was overpriced.",steak,negative
+"The music was too loud.",music,negative
+"The lemonade tasted artificial.",lemonade,negative
+"The side dishes complemented the main course perfectly.",side dishes,positive
+"The staff didn’t greet us at the entrance.",staff,negative
+"The pancakes were fluffy and golden brown.",pancakes,positive
+"The utensils were spotless.",utensils,positive
+"The burger was juicy and flavorful.",burger,positive
+"The lighting was too dim.",lighting,negative
+"The pasta was served cold.",pasta,negative
+"The sushi rolls were creative and fresh.",sushi rolls,positive
+"The dessert was overly sweet.",dessert,negative
+"The menu had clear and detailed descriptions.",menu,positive
+"The air conditioning was too cold.",air conditioning,negative
+"The coffee was strong and aromatic.",coffee,positive
+"The bread basket was refilled promptly.",bread basket,positive
+"The water glasses were dirty.",water glasses,negative
+"The soup was hearty and satisfying.",soup,positive
+"The service charge was unexpected.",service charge,negative
+"The burger buns were soft and fresh.",burger buns,positive
+"The sauce was bland and lacked flavor.",sauce,negative
+"The staff provided excellent recommendations.",staff,positive
+"The steak was tender and juicy.",steak,positive
+"The tea selection was impressive.",tea selection,positive
+"The decor was outdated.",decor,negative
+"The lasagna was cheesy and full of flavor.",lasagna,positive
+"The coffee machine was broken.",coffee machine,negative
+"The pancakes were too dry but still edible.",pancakes,negative
+"The lighting created a cozy atmosphere.",lighting,positive
+"The service staff seemed overwhelmed.",service staff,negative
+"The seafood platter had a variety of fresh options.",seafood platter,positive
+"The breadsticks were undercooked.",breadsticks,negative
+"The salad had too much dressing.",salad,negative
+"The waiter remembered our preferences, which was impressive.",waiter,positive
+"The water tasted funny.",water,negative
+"The music matched the ambiance perfectly.",music,positive
+"The dessert portions were too small.",dessert portions,negative
+"The pasta was bland and unremarkable.",pasta,negative
+"The air conditioning kept the room comfortable.",air conditioning,positive
+"The burger was burnt on the outside but raw inside.",burger,negative
+"The utensils were not properly cleaned.",utensils,negative
+"The tacos were bursting with fresh ingredients.",tacos,positive
+"The wine glasses were chipped.",wine glasses,negative
+"The ice cream had a rich and creamy texture.",ice cream,positive
+"The server ignored us for most of the meal.",server,negative
+"The soup was hot and full of flavor.",soup,positive
+"The side dishes were basic but well-cooked.",side dishes,neutral
+"The cheesecake was rich and decadent.",cheesecake,positive
+"The floor was sticky and unclean.",floor,negative
+"The fish curry had just the right amount of spice.",fish curry,positive
+"The menu was colorful but hard to read.",menu,negative
+"The staff handled a busy night gracefully.",staff,positive
+"The soda was flat.",soda,negative
+"The table placement was awkward.",table,negative
+"The waffles were light and fluffy.",waffles,positive
+"The bathroom facilities were spotless.",bathroom facilities,positive
+"The appetizers were overpriced.",appetizers,negative
+"The lemonade was refreshing on a hot day.",lemonade,positive
+"The chicken wings were spicy and flavorful.",chicken wings,positive
+"The restaurant ran out of several items on the menu.",menu items,negative
+"The steak was perfectly seared with a smoky flavor.",steak,positive
+"The chairs were comfortable enough for a long meal.",chairs,positive
+"The rice was dry and overcooked.",rice,negative
+"The decor felt modern and trendy.",decor,positive
+"The pizza was crispy, and the salad was fresh.",pizza,positive
+"The pizza was crispy, and the salad was fresh.",salad,positive
+"The waiter was polite, but the food arrived late.",waiter,positive
+"The waiter was polite, but the food arrived late.",food,negative
+"The steak was tender, but the mashed potatoes were undercooked.",steak,positive
+"The steak was tender, but the mashed potatoes were undercooked.",mashed potatoes,negative
+"The coffee was strong, but the croissant was stale.",coffee,positive
+"The coffee was strong, but the croissant was stale.",croissant,negative
+"The music was soothing, and the decor was elegant.",music,positive
+"The music was soothing, and the decor was elegant.",decor,positive
+"The soup was bland, and the bread was cold.",soup,negative
+"The soup was bland, and the bread was cold.",bread,negative
+"The fish tacos were spicy and flavorful, but the rice was mushy.",fish tacos,positive
+"The fish tacos were spicy and flavorful, but the rice was mushy.",rice,negative
+"The pasta was creamy, and the wine was exquisite.",pasta,positive
+"The pasta was creamy, and the wine was exquisite.",wine,positive
+"The lighting was dim, but the seating was comfortable.",lighting,negative
+"The lighting was dim, but the seating was comfortable.",seating,positive
+"The waiter was slow, but the dessert was delicious.",waiter,negative
+"The waiter was slow, but the dessert was delicious.",dessert,positive
+"The appetizers were well-seasoned, and the main course was satisfying.",appetizers,positive
+"The appetizers were well-seasoned, and the main course was satisfying.",main course,positive
+"The burger was juicy, but the fries were soggy.",burger,positive
+"The burger was juicy, but the fries were soggy.",fries,negative
+"The service was excellent, and the portions were generous.",service,positive
+"The service was excellent, and the portions were generous.",portions,positive
+"The soup was rich in flavor, but the salad was wilted.",soup,positive
+"The soup was rich in flavor, but the salad was wilted.",salad,negative
+"The drinks were refreshing, but the prices were high.",drinks,positive
+"The drinks were refreshing, but the prices were high.",prices,negative
+"The garlic naan was buttery, and the lamb curry was tender.",garlic naan,positive
+"The garlic naan was buttery, and the lamb curry was tender.",lamb curry,positive
+"The staff was welcoming, and the ambiance was cozy.",staff,positive
+"The staff was welcoming, and the ambiance was cozy.",ambiance,positive
+"The steak was flavorful, but the side salad was uninspired.",steak,positive
+"The steak was flavorful, but the side salad was uninspired.",side salad,negative
+"The sushi was fresh, and the tempura was crispy.",sushi,positive
+"The sushi was fresh, and the tempura was crispy.",tempura,positive
+"The dessert was too sweet, but the presentation was lovely.",dessert,negative
+"The dessert was too sweet, but the presentation was lovely.",presentation,positive
+"The bread was warm, and the butter was creamy.",bread,positive
+"The bread was warm, and the butter was creamy.",butter,positive
+"The chicken was dry, but the vegetables were cooked perfectly.",chicken,negative
+"The chicken was dry, but the vegetables were cooked perfectly.",vegetables,positive
+"The salad was crisp, and the dressing was tangy.",salad,positive
+"The salad was crisp, and the dressing was tangy.",dressing,positive
+"The tacos were tasty, but the salsa was too salty.",tacos,positive
+"The tacos were tasty, but the salsa was too salty.",salsa,negative
+"The fish curry was aromatic, but the naan was slightly burnt.",fish curry,positive
+"The fish curry was aromatic, but the naan was slightly burnt.",naan,negative
+"The burger was well-cooked, and the milkshake was creamy.",burger,positive
+"The burger was well-cooked, and the milkshake was creamy.",milkshake,positive
+"The waiter was attentive, and the meal was reasonably priced.",waiter,positive
+"The waiter was attentive, and the meal was reasonably priced.",meal,positive

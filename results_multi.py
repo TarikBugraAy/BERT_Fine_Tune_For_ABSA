@@ -6,7 +6,7 @@ import warnings
 import os
 
 from transformers import BertTokenizer, logging
-from bert import bert_ATE, bert_ABSA 
+from bert_ate_absa_models import bert_ATE, bert_ABSA 
 
 # Suppress warnings
 warnings.filterwarnings("ignore", category=UserWarning)
@@ -196,7 +196,7 @@ if __name__ == "__main__":
 
     print("Loading the input data ...")
     # Input for test - the CSV file path
-    csv_file_path = "data/testing_2.csv"  
+    csv_file_path = "data/testing.csv"  
     data_dict = load_csv_data(csv_file_path)
 
     while True:

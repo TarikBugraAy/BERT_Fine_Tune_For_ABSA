@@ -1,7 +1,7 @@
 # Aspect-Term Extraction and Aspect-Based Sentiment Analysis (ABSA)
 
 ## Overview
-This project implements an **Aspect-Based Sentiment Analysis (ABSA)** pipeline using fine-tuned BERT models. It extracts aspect terms from text (e.g., "sevice," "food", "ambiance") and determines their sentiment polarity (Positive, Neutral, or Negative). The pipeline consists of two primary components:
+This project implements an **Aspect-Based Sentiment Analysis (ABSA)** pipeline using fine-tuned **bert-large-uncased**[1] model. It extracts aspect terms from text (e.g., "sevice," "food", "ambiance") and determines their sentiment polarity (Positive, Neutral, or Negative). The pipeline consists of two primary components:
 
 1. **Aspect Term Extraction (ATE):** Identifies aspect terms within sentences.
 2. **Aspect-Based Sentiment Analysis (ABSA):** Determines the sentiment polarity of extracted aspect terms.
@@ -48,13 +48,20 @@ This script installs all necessary Python libraries listed in `requirements.txt`
 ---
 
 ## Dataset
-The models are trained and tested using the restaurant reviews dataset from a preprocessed version of the SemEval-2014 ABSA Task dataset.Preprocesed version available at [1], of the SemEval-2014 ABSA Task [2]
+The models are trained and tested using the restaurant reviews dataset from a preprocessed version of the SemEval-2014 ABSA Task dataset.Preprocesed version available at [2], of the SemEval-2014 ABSA Task [3]
 
 ### Dataset Format:
 The dataset is a CSV file with the following columns:
 - **Tokens:** Tokenized sentence.
 - **Tags:** BIO tagging for aspect terms (`0`: Non-aspect, `1`: Beginning of aspect term, `2`: Inside aspect term).
 - **Polarities:** Sentiment polarities (`0`: Negative, `1`: Neutral, `2`: Positive, `-1`: Non-aspect terms).
+
+### Dataset Files:
+- **ABSArestaurants_train.csv:** Balanced version of `restaurants_train.csv` used in ABSA training.
+- **restaurants_test.csv:** Used in testing both ATE and ABSA for generating classification reports and confusion matrices.
+- **restaurants_train.csv:** Used in training the ATE model.
+- **restaurants_val.csv:** Balanced version of `restaurants_test.csv` used for validating ABSA during training.
+- **testing.csv:** Generated using GPT-4o with a mix of sentences for user testing purposes.
 
 ---
 
@@ -134,14 +141,15 @@ Follow the on-screen instructions to navigate through the options.
 ---
 
 ## References
-1. **Aspect-Term-Extraction-and-Analysis:** https://github.com/1tangerine1day/Aspect-Term-Extraction-and-Analysis
-2. **SemEval-2014 Task 4:** C. Chugh, “SemEval 2014 Task 4: AspectBasedSentimentAnalysis,” Kaggle.com, 2022. https://www.kaggle.com/datasets/charitarth/semeval-2014-task-4-aspectbasedsentimentanalysis.
+1. **bert-large-uncased:** “google-bert/bert-large-uncased · Hugging Face,” Huggingface.co, Mar. 11, 2024. https://huggingface.co/google-bert/bert-large-uncased (accessed Jan. 04, 2025).
+2. **Aspect-Term-Extraction-and-Analysis:** https://github.com/1tangerine1day/Aspect-Term-Extraction-and-Analysis
+3. **SemEval-2014 Task 4:** C. Chugh, “SemEval 2014 Task 4: AspectBasedSentimentAnalysis,” Kaggle.com, 2022. https://www.kaggle.com/datasets/charitarth/semeval-2014-task-4-aspectbasedsentimentanalysis.
 ‌
 
 ---
 
 ## Acknowledgements
-While initially inspired by [1], this project has undergone significant modifications and is largely different. However, certain elements, such as the `dataset.py` file, remain directly adapted from the reference repository.
+While initially inspired by [1], this project has undergone significant modifications and is largely different.
 
 ---
 

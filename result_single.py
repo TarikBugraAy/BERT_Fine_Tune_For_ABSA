@@ -1,7 +1,7 @@
 import os
 import torch
 from transformers import BertTokenizer, logging
-from bert import bert_ATE, bert_ABSA
+from bert_ate_absa_models import bert_ATE, bert_ABSA
 import warnings
 
 # Suppress warnings

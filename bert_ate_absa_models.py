@@ -30,7 +30,7 @@ class bert_ABSA(BertPreTrainedModel):
     def __init__(self, config):
         super(bert_ABSA, self).__init__(config)
         self.bert = BertModel(config)
-        self.dropout = nn.Dropout(p=0.3)  # Add dropout with prob=0.3 (tune as needed)
+        self.dropout = nn.Dropout(p=0.3)  # Adding dropout with prob=0.3
         self.classifier = nn.Linear(config.hidden_size, 3)  # 3 sentiment classes
         self.loss_fn = nn.CrossEntropyLoss()
 
