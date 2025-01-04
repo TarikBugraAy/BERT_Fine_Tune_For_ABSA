@@ -149,7 +149,7 @@ Follow the on-screen instructions to navigate through the options.
 ---
 
 ## Acknowledgements
-While initially inspired by [1], this project has undergone significant modifications and is largely different.
+While initially inspired by [2], this project has undergone significant modifications and is largely different.
 ---
 
 ## Fine Tuned Models

@@ -1,0 +1,5140 @@
+[
+  {
+    "sentence": "The pizza was amazing, and the garlic bread was perfectly crispy.",
+    "predicted_aspects": [
+      {
+        "aspect": "pizza",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "garlicbread",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "pizza",
+        "polarity": "positive"
+      },
+      {
+        "aspect": "garlic bread",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The dessert was a disappointment, especially the chocolate cake.",
+    "predicted_aspects": [
+      {
+        "aspect": "dessert",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "chocolatecake",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "dessert",
+        "polarity": "negative"
+      },
+      {
+        "aspect": "chocolate cake",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The waiter was friendly, but the service overall was a bit slow.",
+    "predicted_aspects": [
+      {
+        "aspect": "waiter",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "service",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "waiter",
+        "polarity": "positive"
+      },
+      {
+        "aspect": "service",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The sushi rolls were fresh and flavorful, but the tempura was too greasy.",
+    "predicted_aspects": [
+      {
+        "aspect": "sushirolls",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "tempura",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "sushi rolls",
+        "polarity": "positive"
+      },
+      {
+        "aspect": "tempura",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The ambiance was wonderful, with cozy lighting and soft music.",
+    "predicted_aspects": [
+      {
+        "aspect": "ambiance",
+        "polarity": "Positive"
+      },
+      {
+        "aspect": "lighting",
+        "polarity": "Positive"
+      },
+      {
+        "aspect": "music",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "ambiance",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The coffee was cold, and the croissant tasted stale.",
+    "predicted_aspects": [
+      {
+        "aspect": "coffee",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "croissant",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "coffee",
+        "polarity": "negative"
+      },
+      {
+        "aspect": "croissant",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The burgers were juicy, and the fries were perfectly seasoned.",
+    "predicted_aspects": [
+      {
+        "aspect": "burgers",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "fries",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "burgers",
+        "polarity": "positive"
+      },
+      {
+        "aspect": "fries",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The pasta was creamy, and the garlic bread complemented it perfectly.",
+    "predicted_aspects": [
+      {
+        "aspect": "pasta",
+        "polarity": "Positive"
+      },
+      {
+        "aspect": "garlicbread",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "pasta",
+        "polarity": "positive"
+      },
+      {
+        "aspect": "garlic bread",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The cocktails were refreshing, and the wine selection was impressive.",
+    "predicted_aspects": [
+      {
+        "aspect": "cocktails",
+        "polarity": "Positive"
+      },
+      {
+        "aspect": "wineselection",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "cocktails",
+        "polarity": "positive"
+      },
+      {
+        "aspect": "wine selection",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The service was attentive, and the food arrived quickly.",
+    "predicted_aspects": [
+      {
+        "aspect": "service",
+        "polarity": "Neutral"
+      },
+      {
+        "aspect": "food",
+        "polarity": "Neutral"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "service",
+        "polarity": "positive"
+      },
+      {
+        "aspect": "food",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The salad was bland, and the dressing didn\u2019t help much.",
+    "predicted_aspects": [
+      {
+        "aspect": "salad",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "dressing",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "salad",
+        "polarity": "negative"
+      },
+      {
+        "aspect": "dressing",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The desserts were dry, and the ice cream was too sweet.",
+    "predicted_aspects": [
+      {
+        "aspect": "desserts",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "icecream",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "desserts",
+        "polarity": "negative"
+      },
+      {
+        "aspect": "ice cream",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The steak was tender, and the mashed potatoes were buttery.",
+    "predicted_aspects": [
+      {
+        "aspect": "steak",
+        "polarity": "Positive"
+      },
+      {
+        "aspect": "mashedpotatoes",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "steak",
+        "polarity": "positive"
+      },
+      {
+        "aspect": "mashed potatoes",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The seafood platter was fresh, and the oysters were especially good.",
+    "predicted_aspects": [
+      {
+        "aspect": "seafoodplatter",
+        "polarity": "Positive"
+      },
+      {
+        "aspect": "oysters",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "seafood platter",
+        "polarity": "positive"
+      },
+      {
+        "aspect": "oysters",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The soup was hot.",
+    "predicted_aspects": [
+      {
+        "aspect": "soup",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "soup",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The bread was just okay.",
+    "predicted_aspects": [
+      {
+        "aspect": "bread",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "bread",
+        "polarity": "neutral"
+      }
+    ]
+  },
+  {
+    "sentence": "The waiter didn\u2019t say much.",
+    "predicted_aspects": [
+      {
+        "aspect": "waiter",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "waiter",
+        "polarity": "neutral"
+      }
+    ]
+  },
+  {
+    "sentence": "The coffee was strong.",
+    "predicted_aspects": [
+      {
+        "aspect": "coffee",
+        "polarity": "Neutral"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "coffee",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The tea was average.",
+    "predicted_aspects": [
+      {
+        "aspect": "tea",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "tea",
+        "polarity": "neutral"
+      }
+    ]
+  },
+  {
+    "sentence": "The table was clean.",
+    "predicted_aspects": [
+      {
+        "aspect": "table",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "table",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The fries were cold.",
+    "predicted_aspects": [
+      {
+        "aspect": "fries",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "fries",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The ice cream was too sweet.",
+    "predicted_aspects": [
+      {
+        "aspect": "icecream",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "ice cream",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The ambiance was fine.",
+    "predicted_aspects": [
+      {
+        "aspect": "ambiance",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "ambiance",
+        "polarity": "neutral"
+      }
+    ]
+  },
+  {
+    "sentence": "The steak was well-cooked.",
+    "predicted_aspects": [
+      {
+        "aspect": "steak",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "cooked",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "steak",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The chairs were uncomfortable.",
+    "predicted_aspects": [
+      {
+        "aspect": "chairs",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "chairs",
+        "polarity": "negative"
+      },
+      {
+        "aspect": "chairs",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The menu had plenty of options.",
+    "predicted_aspects": [
+      {
+        "aspect": "menu",
+        "polarity": "Neutral"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "menu",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The fish was fresh.",
+    "predicted_aspects": [
+      {
+        "aspect": "fish",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "fish",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The staff didn\u2019t interact much.",
+    "predicted_aspects": [
+      {
+        "aspect": "staff",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "staff",
+        "polarity": "neutral"
+      }
+    ]
+  },
+  {
+    "sentence": "The dessert tasted bland.",
+    "predicted_aspects": [
+      {
+        "aspect": "dessert",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "dessert",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The pasta was flavorful, and the sauce was rich.",
+    "predicted_aspects": [
+      {
+        "aspect": "pasta",
+        "polarity": "Positive"
+      },
+      {
+        "aspect": "sauce",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "pasta",
+        "polarity": "positive"
+      },
+      {
+        "aspect": "sauce",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The drinks were overpriced.",
+    "predicted_aspects": [
+      {
+        "aspect": "drinks",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "drinks",
+        "polarity": "negative"
+      },
+      {
+        "aspect": "drinks",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The soup was served warm, and the bread was soft.",
+    "predicted_aspects": [
+      {
+        "aspect": "soup",
+        "polarity": "Neutral"
+      },
+      {
+        "aspect": "served",
+        "polarity": "Positive"
+      },
+      {
+        "aspect": "bread",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "soup",
+        "polarity": "positive"
+      },
+      {
+        "aspect": "bread",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The server was polite but seemed distracted.",
+    "predicted_aspects": [
+      {
+        "aspect": "server",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "server",
+        "polarity": "neutral"
+      }
+    ]
+  },
+  {
+    "sentence": "The ambiance was noisy, but the seating was comfortable.",
+    "predicted_aspects": [
+      {
+        "aspect": "ambiance",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "seating",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "ambiance",
+        "polarity": "negative"
+      },
+      {
+        "aspect": "seating",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The portions were generous, and the food was tasty.",
+    "predicted_aspects": [
+      {
+        "aspect": "portions",
+        "polarity": "Positive"
+      },
+      {
+        "aspect": "food",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "portions",
+        "polarity": "positive"
+      },
+      {
+        "aspect": "food",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The chicken was dry, but the spices were good.",
+    "predicted_aspects": [
+      {
+        "aspect": "chicken",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "spices",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "chicken",
+        "polarity": "negative"
+      },
+      {
+        "aspect": "spices",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The salad was fresh and crisp.",
+    "predicted_aspects": [
+      {
+        "aspect": "salad",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "salad",
+        "polarity": "positive"
+      },
+      {
+        "aspect": "salad",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The menu was confusing to read.",
+    "predicted_aspects": [
+      {
+        "aspect": "menu",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "menu",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The desserts were beautifully presented.",
+    "predicted_aspects": [
+      {
+        "aspect": "desserts",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "desserts",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The fish was overcooked.",
+    "predicted_aspects": [
+      {
+        "aspect": "fish",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "oked",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "fish",
+        "polarity": "negative"
+      },
+      {
+        "aspect": "fish",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The waiter forgot our order.",
+    "predicted_aspects": [
+      {
+        "aspect": "waiter",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "waiter",
+        "polarity": "negative"
+      },
+      {
+        "aspect": "waiter",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The garlic naan was fluffy and perfectly baked.",
+    "predicted_aspects": [
+      {
+        "aspect": "garlicnaan",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "garlic naan",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The coffee was fine but nothing special.",
+    "predicted_aspects": [
+      {
+        "aspect": "coffee",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "coffee",
+        "polarity": "neutral"
+      }
+    ]
+  },
+  {
+    "sentence": "The restaurant\u2019s decor was stunning.",
+    "predicted_aspects": [
+      {
+        "aspect": "decor",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "decor",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The service was slow, and the staff seemed uninterested.",
+    "predicted_aspects": [
+      {
+        "aspect": "service",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "staff",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "service",
+        "polarity": "negative"
+      },
+      {
+        "aspect": "staff",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The tea was soothing and aromatic.",
+    "predicted_aspects": [
+      {
+        "aspect": "tea",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "tea",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The appetizers were decent.",
+    "predicted_aspects": [
+      {
+        "aspect": "appetizers",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "appetizers",
+        "polarity": "neutral"
+      }
+    ]
+  },
+  {
+    "sentence": "The steak was cooked perfectly, and the side salad was fresh.",
+    "predicted_aspects": [
+      {
+        "aspect": "steak",
+        "polarity": "Positive"
+      },
+      {
+        "aspect": "sidesalad",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "steak",
+        "polarity": "positive"
+      },
+      {
+        "aspect": "side salad",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The wine was average.",
+    "predicted_aspects": [
+      {
+        "aspect": "wine",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "wine",
+        "polarity": "neutral"
+      }
+    ]
+  },
+  {
+    "sentence": "The ice cream melted too quickly.",
+    "predicted_aspects": [
+      {
+        "aspect": "icecream",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "ice cream",
+        "polarity": "negative"
+      },
+      {
+        "aspect": "ice cream",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The ambiance felt cozy and welcoming.",
+    "predicted_aspects": [
+      {
+        "aspect": "ambiance",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "ambiance",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The plate was chipped.",
+    "predicted_aspects": [
+      {
+        "aspect": "plate",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "plate",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The shrimp was seasoned well.",
+    "predicted_aspects": [
+      {
+        "aspect": "shrimp",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "shrimp",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The water was refilled promptly.",
+    "predicted_aspects": [
+      {
+        "aspect": "water",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "water",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The pricing was reasonable for the quality.",
+    "predicted_aspects": [
+      {
+        "aspect": "pricing",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "quality",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "pricing",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The kitchen noise was too loud.",
+    "predicted_aspects": [
+      {
+        "aspect": "kitchennoise",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "kitchen noise",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The curry was spicy but enjoyable.",
+    "predicted_aspects": [
+      {
+        "aspect": "curry",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "curry",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The tablecloth had stains.",
+    "predicted_aspects": [
+      {
+        "aspect": "tablecloth",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "tablecloth",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The pancakes were fluffy and sweet.",
+    "predicted_aspects": [
+      {
+        "aspect": "pancakes",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "pancakes",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The lemonade was refreshing.",
+    "predicted_aspects": [
+      {
+        "aspect": "lemonade",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "lemonade",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The rice was undercooked.",
+    "predicted_aspects": [
+      {
+        "aspect": "rice",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "oked",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "rice",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The pizza crust was thin and crispy.",
+    "predicted_aspects": [
+      {
+        "aspect": "pizzacrust",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "pizza crust",
+        "polarity": "positive"
+      },
+      {
+        "aspect": "pizza crust",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The soup lacked seasoning.",
+    "predicted_aspects": [
+      {
+        "aspect": "soup",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "seasoning",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "soup",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The chairs were sturdy.",
+    "predicted_aspects": [
+      {
+        "aspect": "chairs",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "chairs",
+        "polarity": "neutral"
+      }
+    ]
+  },
+  {
+    "sentence": "The server was attentive and quick.",
+    "predicted_aspects": [
+      {
+        "aspect": "server",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "server",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The restaurant's location was convenient.",
+    "predicted_aspects": [
+      {
+        "aspect": "location",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "location",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The pasta portion was too small.",
+    "predicted_aspects": [
+      {
+        "aspect": "pastaportion",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "pasta",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The drinks menu was extensive.",
+    "predicted_aspects": [
+      {
+        "aspect": "drinksmenu",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "drinks menu",
+        "polarity": "positive"
+      },
+      {
+        "aspect": "drinks menu",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The table was wobbly.",
+    "predicted_aspects": [
+      {
+        "aspect": "table",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "table",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The fish tacos were delicious and well-spiced.",
+    "predicted_aspects": [
+      {
+        "aspect": "fishtacos",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "fish tacos",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The ice cream was average.",
+    "predicted_aspects": [
+      {
+        "aspect": "icecream",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "ice cream",
+        "polarity": "neutral"
+      }
+    ]
+  },
+  {
+    "sentence": "The napkins were clean and neatly folded.",
+    "predicted_aspects": [
+      {
+        "aspect": "napkins",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "napkins",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The appetizer arrived late.",
+    "predicted_aspects": [
+      {
+        "aspect": "appetizer",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "appetizer",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The dessert menu lacked variety.",
+    "predicted_aspects": [
+      {
+        "aspect": "dessertmenu",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "dessert menu",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The garlic bread was burnt.",
+    "predicted_aspects": [
+      {
+        "aspect": "garlicbread",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "garlic bread",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The salad was well-dressed and fresh.",
+    "predicted_aspects": [
+      {
+        "aspect": "salad",
+        "polarity": "Positive"
+      },
+      {
+        "aspect": "dressed",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "salad",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The steak was overpriced.",
+    "predicted_aspects": [
+      {
+        "aspect": "steak",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "steak",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The music was too loud.",
+    "predicted_aspects": [
+      {
+        "aspect": "music",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "music",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The lemonade tasted artificial.",
+    "predicted_aspects": [
+      {
+        "aspect": "lemonade",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "lemonade",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The side dishes complemented the main course perfectly.",
+    "predicted_aspects": [
+      {
+        "aspect": "sidedishes",
+        "polarity": "Positive"
+      },
+      {
+        "aspect": "maincourse",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "side dishes",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The staff didn\u2019t greet us at the entrance.",
+    "predicted_aspects": [
+      {
+        "aspect": "staff",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "staff",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The pancakes were fluffy and golden brown.",
+    "predicted_aspects": [
+      {
+        "aspect": "pancakes",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "pancakes",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The utensils were spotless.",
+    "predicted_aspects": [
+      {
+        "aspect": "utensils",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "utensils",
+        "polarity": "positive"
+      },
+      {
+        "aspect": "utensils",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The burger was juicy and flavorful.",
+    "predicted_aspects": [
+      {
+        "aspect": "burger",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "burger",
+        "polarity": "positive"
+      },
+      {
+        "aspect": "burger",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The lighting was too dim.",
+    "predicted_aspects": [
+      {
+        "aspect": "lighting",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "lighting",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The pasta was served cold.",
+    "predicted_aspects": [
+      {
+        "aspect": "pasta",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "served",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "pasta",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The sushi rolls were creative and fresh.",
+    "predicted_aspects": [
+      {
+        "aspect": "sushirolls",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "sushi rolls",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The dessert was overly sweet.",
+    "predicted_aspects": [
+      {
+        "aspect": "dessert",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "dessert",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The menu had clear and detailed descriptions.",
+    "predicted_aspects": [
+      {
+        "aspect": "menu",
+        "polarity": "Neutral"
+      },
+      {
+        "aspect": "descriptions",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "menu",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The air conditioning was too cold.",
+    "predicted_aspects": [
+      {
+        "aspect": "airconditioning",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "air conditioning",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The coffee was strong and aromatic.",
+    "predicted_aspects": [
+      {
+        "aspect": "coffee",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "coffee",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The bread basket was refilled promptly.",
+    "predicted_aspects": [
+      {
+        "aspect": "breadbasket",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "bread basket",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The water glasses were dirty.",
+    "predicted_aspects": [
+      {
+        "aspect": "waterglasses",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "water glasses",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The soup was hearty and satisfying.",
+    "predicted_aspects": [
+      {
+        "aspect": "soup",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "soup",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The service charge was unexpected.",
+    "predicted_aspects": [
+      {
+        "aspect": "servicecharge",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "service charge",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The burger buns were soft and fresh.",
+    "predicted_aspects": [
+      {
+        "aspect": "burgerbuns",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "burger buns",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The sauce was bland and lacked flavor.",
+    "predicted_aspects": [
+      {
+        "aspect": "sauce",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "flavor",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "sauce",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The staff provided excellent recommendations.",
+    "predicted_aspects": [
+      {
+        "aspect": "staff",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "staff",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The steak was tender and juicy.",
+    "predicted_aspects": [
+      {
+        "aspect": "steak",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "steak",
+        "polarity": "positive"
+      },
+      {
+        "aspect": "steak",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The tea selection was impressive.",
+    "predicted_aspects": [
+      {
+        "aspect": "teaselection",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "tea selection",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The decor was outdated.",
+    "predicted_aspects": [
+      {
+        "aspect": "decor",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "decor",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The lasagna was cheesy and full of flavor.",
+    "predicted_aspects": [
+      {
+        "aspect": "lasagna",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "flavor",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "lasagna",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The coffee machine was broken.",
+    "predicted_aspects": [
+      {
+        "aspect": "coffeemachine",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "coffee machine",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The pancakes were too dry but still edible.",
+    "predicted_aspects": [
+      {
+        "aspect": "pancakes",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "pancakes",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The lighting created a cozy atmosphere.",
+    "predicted_aspects": [
+      {
+        "aspect": "lighting",
+        "polarity": "Positive"
+      },
+      {
+        "aspect": "atmosphere",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "lighting",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The service staff seemed overwhelmed.",
+    "predicted_aspects": [
+      {
+        "aspect": "servicestaff",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "service staff",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The seafood platter had a variety of fresh options.",
+    "predicted_aspects": [
+      {
+        "aspect": "seafoodplatter",
+        "polarity": "Positive"
+      },
+      {
+        "aspect": "varietyof",
+        "polarity": "Positive"
+      },
+      {
+        "aspect": "options",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "seafood platter",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The breadsticks were undercooked.",
+    "predicted_aspects": [
+      {
+        "aspect": "breadsticks",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "breadsticks",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The salad had too much dressing.",
+    "predicted_aspects": [
+      {
+        "aspect": "salad",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "dressing",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "salad",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The waiter remembered our preferences, which was impressive.",
+    "predicted_aspects": [
+      {
+        "aspect": "waiter",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "preferences",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "waiter",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The water tasted funny.",
+    "predicted_aspects": [
+      {
+        "aspect": "water",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "water",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The music matched the ambiance perfectly.",
+    "predicted_aspects": [
+      {
+        "aspect": "music",
+        "polarity": "Positive"
+      },
+      {
+        "aspect": "ambiance",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "music",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The dessert portions were too small.",
+    "predicted_aspects": [
+      {
+        "aspect": "dessertportions",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "dessert portions",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The pasta was bland and unremarkable.",
+    "predicted_aspects": [
+      {
+        "aspect": "pasta",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "pasta",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The air conditioning kept the room comfortable.",
+    "predicted_aspects": [
+      {
+        "aspect": "airconditioning",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "room",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "air conditioning",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The burger was burnt on the outside but raw inside.",
+    "predicted_aspects": [
+      {
+        "aspect": "burger",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "burger",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The utensils were not properly cleaned.",
+    "predicted_aspects": [
+      {
+        "aspect": "utensils",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "utensils",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The tacos were bursting with fresh ingredients.",
+    "predicted_aspects": [
+      {
+        "aspect": "tacos",
+        "polarity": "Positive"
+      },
+      {
+        "aspect": "ingredients",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "tacos",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The wine glasses were chipped.",
+    "predicted_aspects": [
+      {
+        "aspect": "wineglasses",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "wine glasses",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The ice cream had a rich and creamy texture.",
+    "predicted_aspects": [
+      {
+        "aspect": "icecream",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "ice cream",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The server ignored us for most of the meal.",
+    "predicted_aspects": [
+      {
+        "aspect": "server",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "meal",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "server",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The soup was hot and full of flavor.",
+    "predicted_aspects": [
+      {
+        "aspect": "soup",
+        "polarity": "Positive"
+      },
+      {
+        "aspect": "flavor",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "soup",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The side dishes were basic but well-cooked.",
+    "predicted_aspects": [
+      {
+        "aspect": "sidedishes",
+        "polarity": "Positive"
+      },
+      {
+        "aspect": "cooked",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "side dishes",
+        "polarity": "neutral"
+      }
+    ]
+  },
+  {
+    "sentence": "The cheesecake was rich and decadent.",
+    "predicted_aspects": [
+      {
+        "aspect": "cheesecake",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "cheesecake",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The floor was sticky and unclean.",
+    "predicted_aspects": [
+      {
+        "aspect": "floor",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "floor",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The fish curry had just the right amount of spice.",
+    "predicted_aspects": [
+      {
+        "aspect": "fishcurry",
+        "polarity": "Positive"
+      },
+      {
+        "aspect": "spice",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "fish curry",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The menu was colorful but hard to read.",
+    "predicted_aspects": [
+      {
+        "aspect": "menu",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "menu",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The staff handled a busy night gracefully.",
+    "predicted_aspects": [
+      {
+        "aspect": "staff",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "staff",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The soda was flat.",
+    "predicted_aspects": [
+      {
+        "aspect": "soda",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "soda",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The table placement was awkward.",
+    "predicted_aspects": [
+      {
+        "aspect": "tableplacement",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "table",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The waffles were light and fluffy.",
+    "predicted_aspects": [
+      {
+        "aspect": "waffles",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "waffles",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The bathroom facilities were spotless.",
+    "predicted_aspects": [
+      {
+        "aspect": "bathroomfacilities",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "bathroom facilities",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The appetizers were overpriced.",
+    "predicted_aspects": [
+      {
+        "aspect": "appetizers",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "appetizers",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The lemonade was refreshing on a hot day.",
+    "predicted_aspects": [
+      {
+        "aspect": "lemonade",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "lemonade",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The chicken wings were spicy and flavorful.",
+    "predicted_aspects": [
+      {
+        "aspect": "chickenwings",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "chicken wings",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The restaurant ran out of several items on the menu.",
+    "predicted_aspects": [
+      {
+        "aspect": "menu",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "menu items",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The steak was perfectly seared with a smoky flavor.",
+    "predicted_aspects": [
+      {
+        "aspect": "steak",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "flavor",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "steak",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The chairs were comfortable enough for a long meal.",
+    "predicted_aspects": [
+      {
+        "aspect": "chairs",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "meal",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "chairs",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The rice was dry and overcooked.",
+    "predicted_aspects": [
+      {
+        "aspect": "rice",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "rice",
+        "polarity": "negative"
+      },
+      {
+        "aspect": "rice",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The decor felt modern and trendy.",
+    "predicted_aspects": [
+      {
+        "aspect": "decor",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "decor",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The pizza was crispy, and the salad was fresh.",
+    "predicted_aspects": [
+      {
+        "aspect": "pizza",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "salad",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "pizza",
+        "polarity": "positive"
+      },
+      {
+        "aspect": "salad",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The waiter was polite, but the food arrived late.",
+    "predicted_aspects": [
+      {
+        "aspect": "waiter",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "food",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "waiter",
+        "polarity": "positive"
+      },
+      {
+        "aspect": "food",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The steak was tender, but the mashed potatoes were undercooked.",
+    "predicted_aspects": [
+      {
+        "aspect": "steak",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "mashedpotatoes",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "steak",
+        "polarity": "positive"
+      },
+      {
+        "aspect": "mashed potatoes",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The coffee was strong, but the croissant was stale.",
+    "predicted_aspects": [
+      {
+        "aspect": "coffee",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "croissant",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "coffee",
+        "polarity": "positive"
+      },
+      {
+        "aspect": "croissant",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The music was soothing, and the decor was elegant.",
+    "predicted_aspects": [
+      {
+        "aspect": "music",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "decor",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "music",
+        "polarity": "positive"
+      },
+      {
+        "aspect": "decor",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The soup was bland, and the bread was cold.",
+    "predicted_aspects": [
+      {
+        "aspect": "soup",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "bread",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "soup",
+        "polarity": "negative"
+      },
+      {
+        "aspect": "bread",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The fish tacos were spicy and flavorful, but the rice was mushy.",
+    "predicted_aspects": [
+      {
+        "aspect": "fishtacos",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "rice",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "fish tacos",
+        "polarity": "positive"
+      },
+      {
+        "aspect": "rice",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The pasta was creamy, and the wine was exquisite.",
+    "predicted_aspects": [
+      {
+        "aspect": "pasta",
+        "polarity": "Positive"
+      },
+      {
+        "aspect": "wine",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "pasta",
+        "polarity": "positive"
+      },
+      {
+        "aspect": "wine",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The lighting was dim, but the seating was comfortable.",
+    "predicted_aspects": [
+      {
+        "aspect": "lighting",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "seating",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "lighting",
+        "polarity": "negative"
+      },
+      {
+        "aspect": "seating",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The waiter was slow, but the dessert was delicious.",
+    "predicted_aspects": [
+      {
+        "aspect": "waiter",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "dessert",
+        "polarity": "Neutral"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "waiter",
+        "polarity": "negative"
+      },
+      {
+        "aspect": "dessert",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The appetizers were well-seasoned, and the main course was satisfying.",
+    "predicted_aspects": [
+      {
+        "aspect": "appetizers",
+        "polarity": "Positive"
+      },
+      {
+        "aspect": "maincourse",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "appetizers",
+        "polarity": "positive"
+      },
+      {
+        "aspect": "main course",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The burger was juicy, but the fries were soggy.",
+    "predicted_aspects": [
+      {
+        "aspect": "burger",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "fries",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "burger",
+        "polarity": "positive"
+      },
+      {
+        "aspect": "fries",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The service was excellent, and the portions were generous.",
+    "predicted_aspects": [
+      {
+        "aspect": "service",
+        "polarity": "Positive"
+      },
+      {
+        "aspect": "portions",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "service",
+        "polarity": "positive"
+      },
+      {
+        "aspect": "portions",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The soup was rich in flavor, but the salad was wilted.",
+    "predicted_aspects": [
+      {
+        "aspect": "soup",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "flavor",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "salad",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "soup",
+        "polarity": "positive"
+      },
+      {
+        "aspect": "salad",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The drinks were refreshing, but the prices were high.",
+    "predicted_aspects": [
+      {
+        "aspect": "drinks",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "prices",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "drinks",
+        "polarity": "positive"
+      },
+      {
+        "aspect": "prices",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The garlic naan was buttery, and the lamb curry was tender.",
+    "predicted_aspects": [
+      {
+        "aspect": "garlicnaan",
+        "polarity": "Positive"
+      },
+      {
+        "aspect": "lambcurry",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "garlic naan",
+        "polarity": "positive"
+      },
+      {
+        "aspect": "lamb curry",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The staff was welcoming, and the ambiance was cozy.",
+    "predicted_aspects": [
+      {
+        "aspect": "staff",
+        "polarity": "Positive"
+      },
+      {
+        "aspect": "ambiance",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "staff",
+        "polarity": "positive"
+      },
+      {
+        "aspect": "ambiance",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The steak was flavorful, but the side salad was uninspired.",
+    "predicted_aspects": [
+      {
+        "aspect": "steak",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "sidesalad",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "steak",
+        "polarity": "positive"
+      },
+      {
+        "aspect": "side salad",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The sushi was fresh, and the tempura was crispy.",
+    "predicted_aspects": [
+      {
+        "aspect": "sushi",
+        "polarity": "Positive"
+      },
+      {
+        "aspect": "tempura",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "sushi",
+        "polarity": "positive"
+      },
+      {
+        "aspect": "tempura",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The dessert was too sweet, but the presentation was lovely.",
+    "predicted_aspects": [
+      {
+        "aspect": "dessert",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "presentation",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "dessert",
+        "polarity": "negative"
+      },
+      {
+        "aspect": "presentation",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The bread was warm, and the butter was creamy.",
+    "predicted_aspects": [
+      {
+        "aspect": "bread",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "butter",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "bread",
+        "polarity": "positive"
+      },
+      {
+        "aspect": "butter",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The chicken was dry, but the vegetables were cooked perfectly.",
+    "predicted_aspects": [
+      {
+        "aspect": "chicken",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "vegetables",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "chicken",
+        "polarity": "negative"
+      },
+      {
+        "aspect": "vegetables",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The salad was crisp, and the dressing was tangy.",
+    "predicted_aspects": [
+      {
+        "aspect": "salad",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "dressing",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "salad",
+        "polarity": "positive"
+      },
+      {
+        "aspect": "dressing",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The tacos were tasty, but the salsa was too salty.",
+    "predicted_aspects": [
+      {
+        "aspect": "tacos",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "salsa",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "tacos",
+        "polarity": "positive"
+      },
+      {
+        "aspect": "salsa",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The fish curry was aromatic, but the naan was slightly burnt.",
+    "predicted_aspects": [
+      {
+        "aspect": "fishcurry",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "naan",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "fish curry",
+        "polarity": "positive"
+      },
+      {
+        "aspect": "naan",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The burger was well-cooked, and the milkshake was creamy.",
+    "predicted_aspects": [
+      {
+        "aspect": "burger",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "milkshake",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "burger",
+        "polarity": "positive"
+      },
+      {
+        "aspect": "milkshake",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The waiter was attentive, and the meal was reasonably priced.",
+    "predicted_aspects": [
+      {
+        "aspect": "waiter",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "meal",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "priced",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "waiter",
+        "polarity": "positive"
+      },
+      {
+        "aspect": "meal",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The soup was hot and flavorful.",
+    "predicted_aspects": [
+      {
+        "aspect": "soup",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "soup",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The bread was fresh and soft.",
+    "predicted_aspects": [
+      {
+        "aspect": "bread",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "bread",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The waiter was friendly and helpful.",
+    "predicted_aspects": [
+      {
+        "aspect": "waiter",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "waiter",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The coffee was bitter and unpleasant.",
+    "predicted_aspects": [
+      {
+        "aspect": "coffee",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "coffee",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The salad was crisp and refreshing.",
+    "predicted_aspects": [
+      {
+        "aspect": "salad",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "salad",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The pasta was cold and lacked seasoning.",
+    "predicted_aspects": [
+      {
+        "aspect": "pasta",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "seasoning",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "pasta",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The service was quick and efficient.",
+    "predicted_aspects": [
+      {
+        "aspect": "service",
+        "polarity": "Neutral"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "service",
+        "polarity": "positive"
+      },
+      {
+        "aspect": "service",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The ambiance was relaxing and peaceful.",
+    "predicted_aspects": [
+      {
+        "aspect": "ambiance",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "ambiance",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The steak was chewy and overcooked.",
+    "predicted_aspects": [
+      {
+        "aspect": "steak",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "steak",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The dessert was rich and decadent.",
+    "predicted_aspects": [
+      {
+        "aspect": "dessert",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "dessert",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The fries were salty and greasy.",
+    "predicted_aspects": [
+      {
+        "aspect": "fries",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "fries",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The menu was clear and easy to read.",
+    "predicted_aspects": [
+      {
+        "aspect": "menu",
+        "polarity": "Neutral"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "menu",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The waiter seemed distracted and inattentive.",
+    "predicted_aspects": [
+      {
+        "aspect": "waiter",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "waiter",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The seafood platter was fresh and delicious.",
+    "predicted_aspects": [
+      {
+        "aspect": "seafoodplatter",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "seafood platter",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The chicken curry was too spicy.",
+    "predicted_aspects": [
+      {
+        "aspect": "chickencurry",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "chicken curry",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The rice was fluffy and perfectly cooked.",
+    "predicted_aspects": [
+      {
+        "aspect": "rice",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "rice",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The garlic bread was slightly burnt.",
+    "predicted_aspects": [
+      {
+        "aspect": "garlicbread",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "garlic bread",
+        "polarity": "negative"
+      },
+      {
+        "aspect": "garlic bread",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The soup was bland and uninteresting.",
+    "predicted_aspects": [
+      {
+        "aspect": "soup",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "soup",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The salad was drenched in dressing.",
+    "predicted_aspects": [
+      {
+        "aspect": "salad",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "drenched",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "dressing",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "salad",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The wine was smooth and aromatic.",
+    "predicted_aspects": [
+      {
+        "aspect": "wine",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "wine",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The pizza was crispy and perfectly baked.",
+    "predicted_aspects": [
+      {
+        "aspect": "pizza",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "pizza",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The staff ignored our requests.",
+    "predicted_aspects": [
+      {
+        "aspect": "staff",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "staff",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The tea was warm and soothing.",
+    "predicted_aspects": [
+      {
+        "aspect": "tea",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "tea",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The lemonade was too sweet.",
+    "predicted_aspects": [
+      {
+        "aspect": "lemonade",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "lemonade",
+        "polarity": "negative"
+      },
+      {
+        "aspect": "lemonade",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The pancakes were fluffy and golden.",
+    "predicted_aspects": [
+      {
+        "aspect": "pancakes",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "pancakes",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The utensils were dirty.",
+    "predicted_aspects": [
+      {
+        "aspect": "utensils",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "utensils",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The decor was modern and stylish.",
+    "predicted_aspects": [
+      {
+        "aspect": "decor",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "decor",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The portions were too small for the price.",
+    "predicted_aspects": [
+      {
+        "aspect": "portions",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "price",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "portions",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The ice cream melted quickly.",
+    "predicted_aspects": [
+      {
+        "aspect": "icecream",
+        "polarity": "Neutral"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "ice cream",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The breadsticks were stale.",
+    "predicted_aspects": [
+      {
+        "aspect": "breadsticks",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "breadsticks",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The service was slow but polite.",
+    "predicted_aspects": [
+      {
+        "aspect": "service",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "service",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The tacos were spicy and flavorful.",
+    "predicted_aspects": [
+      {
+        "aspect": "tacos",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "tacos",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The appetizers arrived late.",
+    "predicted_aspects": [
+      {
+        "aspect": "appetizers",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "appetizers",
+        "polarity": "negative"
+      },
+      {
+        "aspect": "appetizers",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The curry had a perfect balance of spices.",
+    "predicted_aspects": [
+      {
+        "aspect": "curry",
+        "polarity": "Positive"
+      },
+      {
+        "aspect": "of",
+        "polarity": "Positive"
+      },
+      {
+        "aspect": "spices",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "curry",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The soup was watery and lacked flavor.",
+    "predicted_aspects": [
+      {
+        "aspect": "soup",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "flavor",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "soup",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The server was polite but inexperienced.",
+    "predicted_aspects": [
+      {
+        "aspect": "server",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "server",
+        "polarity": "neutral"
+      }
+    ]
+  },
+  {
+    "sentence": "The cake was moist and delicious.",
+    "predicted_aspects": [
+      {
+        "aspect": "cake",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "cake",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The side dishes were average.",
+    "predicted_aspects": [
+      {
+        "aspect": "sidedishes",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "side dishes",
+        "polarity": "neutral"
+      }
+    ]
+  },
+  {
+    "sentence": "The drinks were served promptly.",
+    "predicted_aspects": [
+      {
+        "aspect": "drinks",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "served",
+        "polarity": "Neutral"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "drinks",
+        "polarity": "positive"
+      },
+      {
+        "aspect": "drinks",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The pasta was overcooked and mushy.",
+    "predicted_aspects": [
+      {
+        "aspect": "pasta",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "pasta",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The ice cream had a smooth texture.",
+    "predicted_aspects": [
+      {
+        "aspect": "icecream",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "ice cream",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The fish was cooked to perfection.",
+    "predicted_aspects": [
+      {
+        "aspect": "fish",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "fish",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The tablecloth had visible stains.",
+    "predicted_aspects": [
+      {
+        "aspect": "tablecloth",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "tablecloth",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The dessert was beautifully presented.",
+    "predicted_aspects": [
+      {
+        "aspect": "dessert",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "dessert",
+        "polarity": "positive"
+      },
+      {
+        "aspect": "dessert",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The ambiance was too noisy.",
+    "predicted_aspects": [
+      {
+        "aspect": "ambiance",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "ambiance",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The coffee was lukewarm.",
+    "predicted_aspects": [
+      {
+        "aspect": "coffee",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "coffee",
+        "polarity": "negative"
+      },
+      {
+        "aspect": "coffee",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The burger was overcooked.",
+    "predicted_aspects": [
+      {
+        "aspect": "burger",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "burger",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The rice had a strange texture.",
+    "predicted_aspects": [
+      {
+        "aspect": "rice",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "texture",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "rice",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The server offered great suggestions.",
+    "predicted_aspects": [
+      {
+        "aspect": "server",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "server",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The wine glasses were spotless.",
+    "predicted_aspects": [
+      {
+        "aspect": "wineglasses",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "wine glasses",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The pasta was perfectly cooked and delicious.",
+    "predicted_aspects": [
+      {
+        "aspect": "pasta",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "pasta",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The coffee was served cold and tasted bitter.",
+    "predicted_aspects": [
+      {
+        "aspect": "coffee",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "served",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "coffee",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The staff was attentive and polite.",
+    "predicted_aspects": [
+      {
+        "aspect": "staff",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "staff",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The soup was bland and lacked seasoning.",
+    "predicted_aspects": [
+      {
+        "aspect": "soup",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "seasoning",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "soup",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The dessert was sweet and satisfying.",
+    "predicted_aspects": [
+      {
+        "aspect": "dessert",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "dessert",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The breadsticks were hard and stale.",
+    "predicted_aspects": [
+      {
+        "aspect": "breadsticks",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "breadsticks",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The steak was juicy and tender.",
+    "predicted_aspects": [
+      {
+        "aspect": "steak",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "steak",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The waiter was slow but polite.",
+    "predicted_aspects": [
+      {
+        "aspect": "waiter",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "waiter",
+        "polarity": "neutral"
+      }
+    ]
+  },
+  {
+    "sentence": "The ambiance was cozy and welcoming.",
+    "predicted_aspects": [
+      {
+        "aspect": "ambiance",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "ambiance",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The salad was overdressed and soggy.",
+    "predicted_aspects": [
+      {
+        "aspect": "salad",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "salad",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The tea was warm and refreshing.",
+    "predicted_aspects": [
+      {
+        "aspect": "tea",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "tea",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The fish was fresh and flavorful.",
+    "predicted_aspects": [
+      {
+        "aspect": "fish",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "fish",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The music was too loud for conversation.",
+    "predicted_aspects": [
+      {
+        "aspect": "music",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "music",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The pancakes were fluffy and perfectly sweet.",
+    "predicted_aspects": [
+      {
+        "aspect": "pancakes",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "pancakes",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The table was dirty and sticky.",
+    "predicted_aspects": [
+      {
+        "aspect": "table",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "table",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The soup was hot and hearty.",
+    "predicted_aspects": [
+      {
+        "aspect": "soup",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "soup",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The burger was cooked well and tasted great.",
+    "predicted_aspects": [
+      {
+        "aspect": "burger",
+        "polarity": "Neutral"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "burger",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The fries were cold and soggy.",
+    "predicted_aspects": [
+      {
+        "aspect": "fries",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "fries",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The decor was modern and elegant.",
+    "predicted_aspects": [
+      {
+        "aspect": "decor",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "decor",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The portions were too small.",
+    "predicted_aspects": [
+      {
+        "aspect": "portions",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "portions",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The steak was overcooked and chewy.",
+    "predicted_aspects": [
+      {
+        "aspect": "steak",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "steak",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The ice cream was creamy and delicious.",
+    "predicted_aspects": [
+      {
+        "aspect": "icecream",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "ice cream",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The bread was fresh and warm.",
+    "predicted_aspects": [
+      {
+        "aspect": "bread",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "bread",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The pasta was served lukewarm.",
+    "predicted_aspects": [
+      {
+        "aspect": "pasta",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "served",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "pasta",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The ambiance was too dark.",
+    "predicted_aspects": [
+      {
+        "aspect": "ambiance",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "ambiance",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The curry was spicy and flavorful.",
+    "predicted_aspects": [
+      {
+        "aspect": "curry",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "curry",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The lemonade was refreshing and tangy.",
+    "predicted_aspects": [
+      {
+        "aspect": "lemonade",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "lemonade",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The utensils were clean and neatly arranged.",
+    "predicted_aspects": [
+      {
+        "aspect": "utensils",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "utensils",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The fish tacos were bland.",
+    "predicted_aspects": [
+      {
+        "aspect": "fishtacos",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "fish tacos",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The waiter was attentive and helpful.",
+    "predicted_aspects": [
+      {
+        "aspect": "waiter",
+        "polarity": "Neutral"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "waiter",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The chicken was dry and tough.",
+    "predicted_aspects": [
+      {
+        "aspect": "chicken",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "chicken",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The soup was rich and creamy.",
+    "predicted_aspects": [
+      {
+        "aspect": "soup",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "soup",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The dessert portions were small.",
+    "predicted_aspects": [
+      {
+        "aspect": "dessertportions",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "dessert",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The salad dressing was too salty.",
+    "predicted_aspects": [
+      {
+        "aspect": "saladdressing",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "salad dressing",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The rice had a perfect texture.",
+    "predicted_aspects": [
+      {
+        "aspect": "rice",
+        "polarity": "Positive"
+      },
+      {
+        "aspect": "texture",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "rice",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The server brought the wrong order.",
+    "predicted_aspects": [
+      {
+        "aspect": "server",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "server",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The breadsticks were buttery and warm.",
+    "predicted_aspects": [
+      {
+        "aspect": "breadsticks",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "breadsticks",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The coffee was aromatic and flavorful.",
+    "predicted_aspects": [
+      {
+        "aspect": "coffee",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "coffee",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The steak was perfectly seasoned.",
+    "predicted_aspects": [
+      {
+        "aspect": "steak",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "steak",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The burger was dry and lacked flavor.",
+    "predicted_aspects": [
+      {
+        "aspect": "burger",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "flavor",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "burger",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The staff seemed uninterested.",
+    "predicted_aspects": [
+      {
+        "aspect": "staff",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "staff",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The ambiance was lively and vibrant.",
+    "predicted_aspects": [
+      {
+        "aspect": "ambiance",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "ambiance",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The pasta sauce was too watery.",
+    "predicted_aspects": [
+      {
+        "aspect": "pastasauce",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "pasta sauce",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The wine was smooth and perfectly chilled.",
+    "predicted_aspects": [
+      {
+        "aspect": "wine",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "wine",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The pancakes were too dense.",
+    "predicted_aspects": [
+      {
+        "aspect": "pancakes",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "pancakes",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The soup was salty but enjoyable.",
+    "predicted_aspects": [
+      {
+        "aspect": "soup",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "soup",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The waiter was rude and dismissive.",
+    "predicted_aspects": [
+      {
+        "aspect": "waiter",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "waiter",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The coffee was bitter and burnt.",
+    "predicted_aspects": [
+      {
+        "aspect": "coffee",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "coffee",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The seating was comfortable and spacious.",
+    "predicted_aspects": [
+      {
+        "aspect": "seating",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "seating",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The curry lacked depth of flavor.",
+    "predicted_aspects": [
+      {
+        "aspect": "curry",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "flavor",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "curry",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The bread basket was refilled quickly.",
+    "predicted_aspects": [
+      {
+        "aspect": "breadbasket",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "bread basket",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The fish curry was perfectly spiced.",
+    "predicted_aspects": [
+      {
+        "aspect": "fishcurry",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "fish curry",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The service was slow and inattentive.",
+    "predicted_aspects": [
+      {
+        "aspect": "service",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "service",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The tablecloth was stained.",
+    "predicted_aspects": [
+      {
+        "aspect": "tablecloth",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "tablecloth",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The garlic naan was soft and flavorful.",
+    "predicted_aspects": [
+      {
+        "aspect": "garlicnaan",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "garlic naan",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The music was calming and pleasant.",
+    "predicted_aspects": [
+      {
+        "aspect": "music",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "music",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The rice was sticky and undercooked.",
+    "predicted_aspects": [
+      {
+        "aspect": "rice",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "oked",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "rice",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The appetizers were tasty and well-portioned.",
+    "predicted_aspects": [
+      {
+        "aspect": "appetizers",
+        "polarity": "Positive"
+      },
+      {
+        "aspect": "portion",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "appetizers",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The wine glasses were dirty.",
+    "predicted_aspects": [
+      {
+        "aspect": "wineglasses",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "wine glasses",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The chicken curry was flavorful and aromatic.",
+    "predicted_aspects": [
+      {
+        "aspect": "chickencurry",
+        "polarity": "Positive"
+      },
+      {
+        "aspect": "flavor",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "chicken curry",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The pasta was dry and lacked sauce.",
+    "predicted_aspects": [
+      {
+        "aspect": "pasta",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "sauce",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "pasta",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The burger buns were stale.",
+    "predicted_aspects": [
+      {
+        "aspect": "burgerbuns",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "burger buns",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The soup was hearty and filling.",
+    "predicted_aspects": [
+      {
+        "aspect": "soup",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "soup",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The waiter was friendly but disorganized.",
+    "predicted_aspects": [
+      {
+        "aspect": "waiter",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "waiter",
+        "polarity": "neutral"
+      }
+    ]
+  },
+  {
+    "sentence": "The dessert tasted artificial.",
+    "predicted_aspects": [
+      {
+        "aspect": "dessert",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "dessert",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The table was set beautifully.",
+    "predicted_aspects": [
+      {
+        "aspect": "table",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "set",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "table",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The salad was fresh with a light dressing.",
+    "predicted_aspects": [
+      {
+        "aspect": "salad",
+        "polarity": "Negative"
+      },
+      {
+        "aspect": "withalight",
+        "polarity": "Positive"
+      },
+      {
+        "aspect": "dressing",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "salad",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The breadsticks were served cold.",
+    "predicted_aspects": [
+      {
+        "aspect": "breadsticks",
+        "polarity": "Neutral"
+      },
+      {
+        "aspect": "served",
+        "polarity": "Neutral"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "breadsticks",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The pancakes were perfectly fluffy.",
+    "predicted_aspects": [
+      {
+        "aspect": "pancakes",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "pancakes",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The waiter was polite and attentive.",
+    "predicted_aspects": [
+      {
+        "aspect": "waiter",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "waiter",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The chicken was seasoned well but overcooked.",
+    "predicted_aspects": [
+      {
+        "aspect": "chicken",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "chicken",
+        "polarity": "neutral"
+      }
+    ]
+  },
+  {
+    "sentence": "The ambiance felt cramped and noisy.",
+    "predicted_aspects": [
+      {
+        "aspect": "ambiance",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "ambiance",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The soup was delicious but a bit salty.",
+    "predicted_aspects": [
+      {
+        "aspect": "soup",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "soup",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The portions were generous and satisfying.",
+    "predicted_aspects": [
+      {
+        "aspect": "portions",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "portions",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The dessert was too sweet for my taste.",
+    "predicted_aspects": [
+      {
+        "aspect": "dessert",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "dessert",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The garlic bread was crispy and delicious.",
+    "predicted_aspects": [
+      {
+        "aspect": "garlicbread",
+        "polarity": "Positive"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "garlic bread",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The drinks were overpriced but tasty.",
+    "predicted_aspects": [
+      {
+        "aspect": "drinks",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "drinks",
+        "polarity": "neutral"
+      }
+    ]
+  },
+  {
+    "sentence": "The table was wobbly and unstable.",
+    "predicted_aspects": [
+      {
+        "aspect": "table",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "table",
+        "polarity": "negative"
+      }
+    ]
+  },
+  {
+    "sentence": "The salad was fresh but too small.",
+    "predicted_aspects": [
+      {
+        "aspect": "salad",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "salad",
+        "polarity": "neutral"
+      }
+    ]
+  },
+  {
+    "sentence": "The waiter recommended a great dish.",
+    "predicted_aspects": [
+      {
+        "aspect": "waiter",
+        "polarity": "Neutral"
+      },
+      {
+        "aspect": "dish",
+        "polarity": "Neutral"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "waiter",
+        "polarity": "positive"
+      }
+    ]
+  },
+  {
+    "sentence": "The burger was flavorful and juicy.",
+    "predicted_aspects": [
+      {
+        "aspect": "burger",
+        "polarity": "Negative"
+      }
+    ],
+    "ground_truth_aspects": [
+      {
+        "aspect": "burger",
+        "polarity": "positive"
+      }
+    ]
+  }
+]
