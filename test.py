@@ -58,7 +58,7 @@ if __name__ == "__main__":
     print("1) Test pre-trained models")
     print("2) Test user-trained models")
     print("3) Test both pre-trained and user-trained models")
-    print("==========================================================\n")
+    print("=====================================================================\n")
 
     choice = input("Enter your choice (1, 2, or 3): ").strip()
 

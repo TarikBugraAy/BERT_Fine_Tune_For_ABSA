@@ -249,6 +249,7 @@ if __name__ == "__main__":
 
     # TRAIN/TEST ATE IF CHOSEN
     if train_mode in ["1", "3"]:
+        print("\nModel will be saved to project directory as ate_model_v1.pkl")
         print("\nStarting to train ATE model...")
         train_ate(ate_train_loader, ate_model, optimizer_ATE, epochs=5)
         save_model_pkl(ate_model, "ate_model_v1.pkl")
@@ -259,6 +260,7 @@ if __name__ == "__main__":
 
     # TRAIN/TEST ABSA IF CHOSEN
     if train_mode in ["2", "3"]:
+        print("\nModel will be saved to project directory as absa_model_v1.pkl")
         print("\nStarting to train ABSA model...")
         train_absa(absa_train_loader, absa_val_loader, absa_model, optimizer_ABSA, epochs=8)
 

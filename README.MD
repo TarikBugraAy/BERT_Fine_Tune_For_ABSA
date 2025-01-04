@@ -150,6 +150,10 @@ Follow the on-screen instructions to navigate through the options.
 
 ## Acknowledgements
 While initially inspired by [1], this project has undergone significant modifications and is largely different.
+---
+
+## Fine Tuned Models
+[You can download fine tuned models from here.](https://drive.google.com/drive/folders/1N7dg0kDJlknSpdYs7nfs8dK4yu7cCS5U?usp=sharing)
 
 ---
 
